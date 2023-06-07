@@ -1,3 +1,7 @@
+# src-campaign-uhas
+### This is a campaign website for SRC candidate Johnson Eziel of UHAS - Ghana
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
