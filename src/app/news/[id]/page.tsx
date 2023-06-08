@@ -1,6 +1,5 @@
 'use client'
 import { FetchNews } from '@/app/utils';
-import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation'
@@ -44,9 +43,6 @@ const NewsDetails = () => {
 
   return (
     <>
-      <Head>
-        <title>{news.title} | JFSRC</title>
-      </Head>
       <div className='px-10 pt-20 pb-16 bg-bg-primary'>
         {isLoading ? 
         <ContentLoader /> 
