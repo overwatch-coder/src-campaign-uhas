@@ -30,6 +30,10 @@ const NewsDetails = () => {
         setIsLoading(false);
       }
 
+      if(typeof document !== 'undefined'){
+        document.title = news.title
+      }
+
       const fetchAllNews = async () => {
         const data: NewsType[] = await FetchNews('https://api.escuelajs.co/api/v1/products');
         setAllNews(data);
@@ -37,7 +41,7 @@ const NewsDetails = () => {
 
       fetchSingleNews();
       fetchAllNews();
-    }, [id])
+    }, [id, news.title])
 
     const remainingNews = allNews?.filter(item => item.id !== news?.id);
 
