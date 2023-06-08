@@ -18,7 +18,7 @@ const MissionStatement = () => {
             />
 
             <Button
-                text='Donate to the course'
+                text='Donate'
                 path='/'
                 classes='bg-transparent border-2 border-black/70 hover:bg-black rounded px-2 py-2 text-black hover:text-white text-center uppercase w-fit' 
             />

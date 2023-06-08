@@ -5,7 +5,7 @@ import {AiFillFacebook, AiOutlineWhatsApp, AiOutlineTwitter, AiOutlineInstagram}
 
 const Footer = () => {
   return (
-    <footer className='grid w-screen grid-cols-2 px-5 pt-10 pb-5 text-white gap-7 md:grid-cols-2 bg-blue-main md:place-items-center'>
+    <footer className='z-50 grid w-screen grid-cols-2 px-5 pt-10 pb-5 text-white gap-7 md:grid-cols-2 bg-blue-main md:place-items-center'>
         <div className='flex flex-col gap-y-7'>
             <h2 className='border-b-2 border-b-white w-fit'>Useful Links</h2>
 
