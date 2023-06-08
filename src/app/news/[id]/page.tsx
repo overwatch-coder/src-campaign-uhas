@@ -22,6 +22,7 @@ const NewsDetails = () => {
     
     const [allNews, setAllNews] = useState<NewsType[]>([]);
     const [isLoading, setIsLoading] = useState(false);
+
     useEffect(() => {
       const fetchSingleNews = async () => {
         setIsLoading(true);
@@ -40,8 +41,6 @@ const NewsDetails = () => {
     }, [id])
 
     const remainingNews = allNews?.filter(item => item.id !== news?.id);
-
-    document.title = news.title;
 
   return (
     <>
