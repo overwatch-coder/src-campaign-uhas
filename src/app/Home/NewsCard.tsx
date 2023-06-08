@@ -15,7 +15,7 @@ const NewsCard = ({news}: NewsCardProps) => {
             alt={news.title}
             width={500}
             height={500}
-            className='object-contain w-[300px] h-[300px]'
+            className='object-contain w-full md:w-[300px] h-[300px]'
         />
 
         <div className='flex flex-col space-y-3'>

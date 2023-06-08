@@ -11,7 +11,7 @@ const LatestNews = () => {
     const responsiveBreakpoints = [
         {breakpoint: 1024, cols: 3, rows: 1, gap: 30},
         {breakpoint: 768, cols: 2, rows: 1, gap: 30},
-        {breakpoint: 600, cols: 1, rows: 1, gap: 10},
+        {breakpoint: 600, cols: 1, rows: 1, gap: 30},
         {breakpoint: 3000, cols: 4, rows: 1, gap: 30}
     ]
 
@@ -19,7 +19,7 @@ const LatestNews = () => {
     <section className='flex flex-col px-10 pt-10 pb-16 space-y-4 bg-white'>
         <div className='space-y-3 text-center'>
             <h2 className='text-3xl font-semibold md:text-4xl'>Latest News</h2>
-            <p className='text-xs text-gray-600 md:text-sm'>Stay Informed with the Buzz and Updates of the Campaign Trail.</p>
+            <p className='text-sm text-gray-600'>Stay Informed with the Buzz and Updates of the Campaign Trail.</p>
         </div>
 
         <div className='relative pt-6'>

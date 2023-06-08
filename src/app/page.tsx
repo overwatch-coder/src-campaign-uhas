@@ -1,10 +1,10 @@
 import React from 'react'
-import Hero from './Home/Hero'
-import Intro from './Home/Intro'
-import WhatWeDo from './Home/WhatWeDo'
-import ElectionTimeline from './Home/ElectionTimeline'
-import LatestNews from './Home/LatestNews'
-import ContactUsHome from './Home/ContactUs'
+import Hero from './home/Hero'
+import Intro from './home/Intro'
+import WhatWeDo from './home/WhatWeDo'
+import ElectionTimeline from './home/ElectionTimeline'
+import LatestNews from './home/LatestNews'
+import ContactUsHome from './home/ContactUs'
 
 const Home = () => {
   return (

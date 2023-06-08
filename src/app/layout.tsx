@@ -1,10 +1,19 @@
+import Head from 'next/head'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import './globals.css'
+import { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Welcome | JFSRC',
   description: 'This is a campaign website for SRC candidate Johnson Eziel of UHAS - Ghana',
+  icons: {
+    icon: {
+      url: "/favicon.png",
+      type: "image/png",
+    },
+    shortcut: { url: "/favicon.png", type: "image/png" },
+  }
 }
 
 export default function RootLayout({
