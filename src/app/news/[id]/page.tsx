@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation'
 import React, {useEffect, useState} from 'react'
-import ContentLoader from 'react-content-loader';
+import ContentLoader from 'react-content-loader'
 
 const NewsDetails = () => {
     const {id} = useParams();

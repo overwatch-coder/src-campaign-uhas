@@ -1,4 +1,3 @@
-import React from 'react'
 import Hero from './Home/Hero'
 import Intro from './Home/Intro'
 import WhatWeDo from './Home/WhatWeDo'
@@ -8,14 +7,14 @@ import HomeNews from './Home/HomeNews'
 
 const Home = () => {
   return (
-    <section>
+    <>
       <Hero />
       <Intro />
       <HomeNews />
       <WhatWeDo />
       <ElectionTimeline />
       <ContactUsHome />
-    </section>
+    </>
   )
 }
 

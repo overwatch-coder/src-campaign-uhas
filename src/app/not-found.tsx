@@ -1,11 +1,9 @@
-import { Metadata } from 'next'
 import Link from 'next/link'
-import React from 'react'
 
-export const metadata: Metadata = {
-    title: '404 | Page Not Found - Bambora Ecommerce',
+export const metadata = {
+    title: '404 | Page Not Found - JFSRC',
     description: 'Page Not Found',
-  }
+}
 
 const NotFound = () => {
   return (
@@ -16,7 +14,6 @@ const NotFound = () => {
             We are sorry, the page you requested could not be found.
         </p>
         <Link href={'/'} className='px-5 py-3 text-white uppercase bg-slate-700 hover:bg-slate-900'>Go Home</Link>
-
     </section>
   )
 }
