@@ -2,8 +2,7 @@
 
 import React, {createContext} from 'react'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css';
 
 export const AosContext = createContext(null);
 

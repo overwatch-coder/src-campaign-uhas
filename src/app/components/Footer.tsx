@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import React from 'react'
 import {AiFillFacebook, AiOutlineWhatsApp, AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
@@ -36,7 +35,7 @@ const Footer = () => {
           <div className='flex flex-col mt-5 space-y-3'> 
             <h1 className='text-5xl md:text-7xl font-oswald text-red-main'>JFSRC</h1>
 
-            <p className='text-xs tracking-wide md:text-sm'>Together, let's build a stronger student community."</p>
+            <p className='text-xs tracking-wide md:text-sm'>Together, let us build a stronger student community.</p>
           </div>
         </div>
 

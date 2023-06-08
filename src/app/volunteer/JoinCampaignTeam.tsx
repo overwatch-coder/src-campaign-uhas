@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 
 const JoinCampaignTeam = () => {
@@ -91,7 +90,7 @@ const JoinCampaignTeam = () => {
             <label htmlFor="events" className='text-white/60'>Events</label>
           </div>
         </div>
-        <button className='w-full px-4 py-3 text-center text-white uppercase rounded bg-red-main hover:bg-red-800'>I'm In</button>
+        <button className='w-full px-4 py-3 text-center text-white uppercase rounded bg-red-main hover:bg-red-800'>I am In</button>
       </form>
     </section>
   )

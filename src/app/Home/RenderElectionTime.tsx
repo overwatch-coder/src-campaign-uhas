@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 'use client'
 
 import React from 'react'
@@ -15,7 +14,7 @@ const RenderElectionTime = ({ days, hours, minutes, seconds, completed }: Countd
     // Renderer callback with condition
         if (completed) {
         // Render a completed state
-        return <h1 className='text-4xl font-medium text-center text-white'>It's voting day!</h1>;
+        return <h1 className='text-4xl font-medium text-center text-white'>It is voting day!</h1>;
         } else {
         // Render a countdown
         return (

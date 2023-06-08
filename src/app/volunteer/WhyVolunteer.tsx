@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import volunteer_group_img from '../../assets/volunteer-group.png'
 import Image from 'next/image'
@@ -14,7 +13,7 @@ const WhyVolunteer = () => {
         <h2 className='text-xl font-semibold font-oswald md:text-2xl text-red-main'>Why Volunteer with Us?</h2>
 
         <li className='space-x-2 text-sm text-black/70 md:text-base'>
-          <span className='font-medium text-red-main'>Make an impact:</span> Your efforts as a volunteer can directly contribute to our campaign's success and the positive change we aim to achieve.
+          <span className='font-medium text-red-main'>Make an impact:</span> Your efforts as a volunteer can directly contribute to our campaign success and the positive change we aim to achieve.
         </li>
 
         <li className='space-x-2 text-sm text-black/70 md:text-base'>
