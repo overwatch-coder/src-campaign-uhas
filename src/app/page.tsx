@@ -11,7 +11,6 @@ const Home = () => {
     <section>
       <Hero />
       <Intro />
-      {/* @ts-expect-error Server Component */}
       <HomeNews />
       <WhatWeDo />
       <ElectionTimeline />
