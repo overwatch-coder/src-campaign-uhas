@@ -12,6 +12,17 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        'oswald': ['oswald', 'ui-serif', 'Georgia'],
+        'georgia': ['Georgia', 'poppins', 'ui-serif'],
+        'poppins': ['poppins', 'Georgia', 'oswald'] 
+      },
+      colors: {
+        'bg-primary': '#DEE0ED',
+        'primary': '#19097E',
+        'blue-main': '#0A125C',
+        'red-main': '#BB1919'
+      }
     },
   },
   plugins: [],
