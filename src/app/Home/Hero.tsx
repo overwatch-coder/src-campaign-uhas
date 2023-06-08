@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className='flex flex-col-reverse justify-around w-screen px-10 pb-10 space-y-1 md:items-center md:flex-row md:space-y-0 bg-bg-primary'>
 
-        <div className='flex flex-col items-center mx-auto space-y-4 md:space-y-6 md:items-start'>
+        <div data-aos="fade-right" className='flex flex-col items-center mx-auto space-y-4 md:space-y-6 md:items-start'>
             <h1 className='text-4xl font-semibold md:text-5xl lg:text-6xl text-[#19097E] font-oswald tracking-wide leading-[1.6] text-center md:text-left'>
                 Johnson Eziel <br className='hidden lg:block' /> Fritz
             </h1>
@@ -30,6 +30,7 @@ const Hero = () => {
         </div>
 
         <Image 
+            data-aos="fade-left"
             src={heroImg}
             width={500}
             height={500}

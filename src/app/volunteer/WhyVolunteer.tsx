@@ -8,7 +8,9 @@ const WhyVolunteer = () => {
     <section 
       className='flex flex-col px-10 pt-10 pb-16 space-y-5 bg-white md:flex-row md:space-y-0 md:justify-between md:space-x-10 md:items-center'
     >
-      <div className='flex flex-col pt-10 space-y-5 md:pt-0'>
+      <div 
+        data-aos="fade-right"
+        className='flex flex-col pt-10 space-y-5 md:pt-0'>
         <h2 className='text-xl font-semibold font-oswald md:text-2xl text-red-main'>Why Volunteer with Us?</h2>
 
         <li className='space-x-2 text-sm text-black/70 md:text-base'>
@@ -25,6 +27,7 @@ const WhyVolunteer = () => {
       </div>
       
       <Image 
+        data-aos="fade-left"
         src={volunteer_group_img}
         alt='Volunteering group picture'
         width={500}

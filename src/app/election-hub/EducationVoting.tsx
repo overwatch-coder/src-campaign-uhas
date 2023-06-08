@@ -44,6 +44,7 @@ const EducationVoting = () => {
   return (
     <section 
       className='px-10 pt-10 pb-16 bg-bg-primary'
+      data-aos="fade-down"
     >
       <div className='flex flex-col items-center mx-auto space-y-4'>
         <h2 className='text-xl font-semibold text-center text-red-main md:text-2xl'>Education on How to Get Registered and Vote</h2>

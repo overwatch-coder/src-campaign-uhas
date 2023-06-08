@@ -13,16 +13,16 @@ const Policies = () => {
       id: 1,
       categories: [
         {
-          title: 'Expanding and diversifying facilities',
-          description: 'Expanding and diversifying sports and recreational facilities to cater to a wide range of interests.'
+          title: 'Promoting transparency and accountability',
+          description: 'Promoting transparency and accountability in the student government.'
         },
         {
-          title: 'Engaging Events and Tournaments',
-          description: 'Organizing engaging events, tournaments, and cultural activities to foster a vibrant campus community.'
+          title: 'Advocating for student representation',
+          description: 'Advocating for student representation in administrative decision-making processes.'
         },
         {
-          title: 'Cultural Activities and Entertainment',
-          description: 'Collaborating with student clubs and organizations to provide a rich and varied entertainment experience.'
+          title: 'Streamlining administrative procedures',
+          description: 'Streamlining administrative procedures to improve efficiency and responsiveness.'
         }
       ],
       title: 'Administration & Government',
@@ -49,16 +49,16 @@ const Policies = () => {
       id: 3,
       categories: [
         {
-          title: 'Expanding and diversifying facilities',
-          description: 'By empowering you with the necessary information and step-by-step guidance, we aim to ensure that you can participate in the electoral process confidently and make your voice heard.'
+          title: 'Enhancing campus safety measures',
+          description: 'Enhancing campus safety measures and promoting a secure environment for all students.'
         },
         {
-          title: 'Engaging Events and Tournaments',
-          description: 'Organizing engaging events, tournaments, and cultural activities to foster a vibrant campus community.'
+          title: 'Implementing safety awareness campaigns',
+          description: 'Implementing safety awareness campaigns and educational programs.'
         },
         {
-          title: 'Cultural Activities and Entertainment',
-          description: 'For more detailed information and resources, please explore the specific sections under the Voting Guide or reach out to our team for any further assistance.'
+          title: 'Establishing partnerships with local law enforcement',
+          description: 'Establishing partnerships with local law enforcement agencies to ensure prompt response to any security concerns.'
         }
       ],
       title: 'Security & Safety'
@@ -67,16 +67,16 @@ const Policies = () => {
       id: 4,
       categories: [
         {
-          title: 'Expanding and diversifying facilities',
-          description: 'Expanding and diversifying sports and recreational facilities to cater to a wide range of interests.'
+          title: 'Supporting career development initiatives',
+          description: 'Supporting career development initiatives and internship opportunities.'
         },
         {
-          title: 'Engaging Events and Tournaments',
-          description: 'Organizing engaging events, tournaments, and cultural activities to foster a vibrant campus community.'
+          title: 'Encouraging professional growth',
+          description: 'Encouraging professional growth through workshops, seminars, and mentorship programs.'
         },
         {
-          title: 'Cultural Activities and Entertainment',
-          description: 'Collaborating with student clubs and organizations to provide a rich and varied entertainment experience.'
+          title: 'Fostering a supportive and inclusive environment',
+          description: 'Fostering a supportive and inclusive environment for all students, regardless of background or abilities.'
         }
       ],
       title: 'Human Resource Development'
@@ -85,16 +85,16 @@ const Policies = () => {
       id: 5,
       categories: [
         {
-          title: 'Expanding and diversifying facilities',
-          description: 'Expanding and diversifying sports and recreational facilities to cater to a wide range of interests.'
+          title: 'Advocating for curriculum enhancements',
+          description: 'Advocating for curriculum enhancements and interdisciplinary learning opportunities.'
         },
         {
-          title: 'Engaging Events and Tournaments',
-          description: 'Organizing engaging events, tournaments, and cultural activities to foster a vibrant campus community.'
+          title: 'Promoting collaboration between faculty and students',
+          description: 'Promoting collaboration between faculty and students to improve teaching and learning experiences.'
         },
         {
-          title: 'Cultural Activities and Entertainment',
-          description: 'Collaborating with student clubs and organizations to provide a rich and varied entertainment experience.'
+          title: 'Enhancing academic support services',
+          description: 'Enhancing academic support services, such as tutoring programs and study groups.'
         }
       ],
       title: 'Academics'
@@ -103,16 +103,16 @@ const Policies = () => {
       id: 6,
       categories: [
         {
-          title: 'Expanding and diversifying facilities',
-          description: 'Expanding and diversifying sports and recreational facilities to cater to a wide range of interests.'
+          title: 'Respecting and accommodating diverse religious beliefs',
+          description: 'Respecting and accommodating diverse religious beliefs and practices on campus.'
         },
         {
-          title: 'Engaging Events and Tournaments',
-          description: 'Organizing engaging events, tournaments, and cultural activities to foster a vibrant campus community.'
+          title: 'Collaborating with faith-based organizations',
+          description: "Collaborating with faith-based organizations to provide resources and support for students' spiritual well-being."
         },
         {
-          title: 'Cultural Activities and Entertainment',
-          description: 'Collaborating with student clubs and organizations to provide a rich and varied entertainment experience.'
+          title: 'Promoting interfaith dialogue',
+          description: 'Promoting interfaith dialogue and fostering a culture of respect and understanding.'
         }
       ],
       title: 'Faith Based Policies'
@@ -121,16 +121,16 @@ const Policies = () => {
       id: 7,
       categories: [
         {
-          title: 'Expanding and diversifying facilities',
-          description: 'Expanding and diversifying sports and recreational facilities to cater to a wide range of interests.'
+          title: 'Addressing transportation challenges',
+          description: 'Addressing transportation challenges to ensure accessibility and convenience for students.'
         },
         {
-          title: 'Engaging Events and Tournaments',
-          description: 'Organizing engaging events, tournaments, and cultural activities to foster a vibrant campus community.'
+          title: 'Advocating for improved public transportation',
+          description: 'Advocating for improved public transportation options.'
         },
         {
-          title: 'Cultural Activities and Entertainment',
-          description: 'Collaborating with student clubs and organizations to provide a rich and varied entertainment experience.'
+          title: 'Exploring eco-friendly transportation initiatives',
+          description: 'Exploring eco-friendly transportation initiatives to reduce the carbon footprint of commuting.'
         }
       ],
       title: 'Transport'
@@ -164,7 +164,8 @@ const Policies = () => {
          {showPolicyCategory && policies.map((policy, index) => (
           <button 
             key={index}
-            className={`rounded  px-3 py-2  text-sm ${index+1 !== currentPolicy ? "bg-white text-black/80" : "bg-red-main text-white"}`
+            data-aos="fade-down"
+            className={`rounded  px-3 py-3  text-sm ${index+1 !== currentPolicy ? "bg-white text-black/80" : "bg-red-main text-white"}`
           }
           onClick={() => {setCurrentPolicy(index + 1); setShowPolicyCategory(false)}}
           >
@@ -176,7 +177,7 @@ const Policies = () => {
         {/* Policies Based On User Click */}
         <div className='flex-1 px-10'>
           {policies.filter(policy => policy.id === currentPolicy).map((policy, index) => (
-            <div key={index} className='flex flex-col space-y-5'>
+            <div data-aos="fade-up" key={index} className='flex flex-col space-y-5'>
 
               <h3 className='pt-6 text-xl font-semibold text-red-main md:text-2xl md:pt-0'>{policy.title}</h3>
 

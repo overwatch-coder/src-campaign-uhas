@@ -1,12 +1,17 @@
 type NewsType = {
     id: number,
-    image: string,
-    rating: {
-        rate: number,
-        count: number
-    },
+    images: string[],
     price: number,
     description: string,
     title: string,
     category: string
+    creationAt: string
+    updatedAt: string, 
+    category:  {
+        id:  number,
+        name: string, 
+        image: string, 
+        creationAt: string,
+        updatedAt: string
+    }
 }

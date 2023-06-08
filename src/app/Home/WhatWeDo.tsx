@@ -8,13 +8,13 @@ import volunteericon from '../../assets/volunteer-icon.png'
 const WhatWeDo = () => {
   return (
     <section className='flex flex-col px-10 pt-10 pb-16 space-y-10 bg-primary'>
-        <div className='flex flex-col space-y-3'>
+        <div data-aos="fade-down" className='flex flex-col space-y-3'>
             <h2 className='text-2xl font-semibold text-center text-white md:text-3xl font-poppins'>What We Are About</h2>
             
             <p className='text-xs text-center text-white/80 md:text-base'>Empowering students through advocacy, support, and positive change.</p>
         </div>
 
-        <div className='grid grid-cols-1 gap-10 mx-auto md:max-w-4xl md:grid-cols-2'>
+        <div data-aos="fade-down" className='grid grid-cols-1 gap-10 mx-auto md:max-w-4xl md:grid-cols-2'>
             
             <WWDCard 
                 title='About Us'

@@ -5,7 +5,7 @@ import { MdEmail, MdLocationPin, MdPhoneAndroid } from 'react-icons/md'
 const ContactSection = () => {
   return (
     <section className='grid grid-cols-1 gap-10 px-10 pt-10 pb-16 md:grid-cols-2 bg-bg-primary'>
-      <div className='flex flex-col space-y-5'>
+      <div data-aos="fade-up" className='flex flex-col space-y-5'>
         <p className='text-sm text-black md:text-base leading-[1.7] text-justify mb-5'>Feel free to reach out to us using any of the contact methods provided. We are excited to connect with you and work together towards our shared goals.</p>
 
         <div className='flex items-start p-3 space-x-4 bg-white rounded shadow-lg'>

@@ -19,7 +19,7 @@ const EducationCard = ({edu}: EducationCardProps) => {
   }
 
   return (
-    <section className='flex flex-col space-y-3 bg-white shadow'>
+    <section data-aos="fade-down" className='flex flex-col space-y-3 bg-white shadow'>
       <button 
         onClick={() => handleToggleDescription(edu.id)}
         className='flex items-center justify-between w-full px-4 py-2 bg-blue-main'

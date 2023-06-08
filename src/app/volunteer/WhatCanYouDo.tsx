@@ -49,6 +49,7 @@ const WhatCanYouDo = () => {
   
   return (
     <section 
+    data-aos="fade-down"
       className='px-10 pt-10 pb-10 bg-bg-primary'
     >
       <div className='flex flex-col items-center mx-auto space-y-4'>
@@ -68,7 +69,7 @@ const WhatCanYouDo = () => {
         ))}
       </div>
 
-      <p className='text-sm text-center text-black/70 md:text-base pt-7'>
+      <p data-aos="zoom-out" className='text-sm text-center text-black/70 md:text-base pt-7'>
         Every effort, no matter how big or small, can contribute to our collective success. We appreciate your willingness to help and invite you to join us in creating positive change.
       </p>
     </section>

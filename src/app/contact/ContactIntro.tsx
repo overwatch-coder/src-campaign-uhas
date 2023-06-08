@@ -4,6 +4,7 @@ import React from 'react'
 const ContactIntro = () => {
   return (
     <section
+      data-aos="fade-down"
         className='flex flex-col px-10 pt-10 pb-16 mx-auto space-y-5 bg-white'
     >
         <h2 className='text-2xl font-semibold text-center font-oswald text-red-main md:text-3xl'>Get In Touch</h2>
