@@ -1,7 +1,7 @@
 import React from 'react'
 import heroImg from '../../assets/johnson.png'
 import Image from 'next/image'
-import Button from '../components/Button'
+import Button from '../Button'
 
 const Hero = () => {
   return (

@@ -1,9 +1,10 @@
 import React from 'react'
 import { MdRssFeed } from 'react-icons/md'
 import { TfiAnnouncement } from 'react-icons/tfi'
-import { FetchNews } from '../utils'
+
 import HomeNewsCard from './HomeNewsCard'
 import AnnoncementCard from './AnnoncementCard'
+import { FetchNews } from '@/app/utils'
 
 const HomeNews = async (): Promise<any>  => {
     const news: NewsType[] = await FetchNews('https://api.escuelajs.co/api/v1/products');

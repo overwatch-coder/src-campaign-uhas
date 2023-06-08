@@ -1,5 +1,6 @@
+import EducationCard from '@/components/election-hub/EducationCard';
 import React from 'react'
-import EducationCard from '../election-hub/EducationCard'
+
 
 const WhatCanYouDo = () => {
   const how_to_help = [

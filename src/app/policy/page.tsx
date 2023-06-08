@@ -1,8 +1,9 @@
 import React from 'react'
-import HeroComponent from '../components/HeroComponent'
 import heroBg from '../../assets/policyhero.webp'
-import PolicyIntro from './PolicyIntro'
-import Policies from './Policies'
+import HeroComponent from '@/components/HeroComponent'
+import PolicyIntro from '@/components/policy/PolicyIntro'
+import Policies from '@/components/policy/Policies'
+
 
 export const metadata = {
   title: 'Our Policies | JFSRC'

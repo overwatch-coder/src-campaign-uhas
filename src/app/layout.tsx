@@ -1,5 +1,5 @@
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 import AosProvider from './context/AosProvider'
 import './globals.css'
 import { Metadata } from 'next'

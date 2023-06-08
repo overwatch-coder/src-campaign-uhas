@@ -1,8 +1,8 @@
 'use client'
 
 import React, {useState} from 'react'
-import AchievementCard from '../about/AchievementCard'
 import {BsChevronDown, BsChevronUp} from 'react-icons/bs'
+import AchievementCard from '../about/AchievementCard';
 
 const Policies = () => {
   const [currentPolicy, setCurrentPolicy] = useState(1);

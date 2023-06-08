@@ -4,6 +4,7 @@ import React from 'react'
 import Countdown from 'react-countdown';
 import RenderElectionTime from './RenderElectionTime';
 
+
 const ElectionTimeline = () => {
   return (
     <section className="relative px-10 py-5 bg-black election_bg h-[38vh] sm:h-[50vh]">

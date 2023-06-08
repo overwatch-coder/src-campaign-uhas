@@ -1,11 +1,11 @@
 import React from 'react'
 import heroBg from '../../assets/about-hero.jpeg'
-import HeroComponent from '../components/HeroComponent'
-import Profile from './Profile'
-import MissionStatement from './MissionStatement'
-import GuidingPrinciple from './GuidingPrinciple'
-import Endorsement from './Endorsement'
-import Achievements from './Achievements'
+import HeroComponent from '../../components/HeroComponent'
+import Profile from '@/components/about/Profile'
+import MissionStatement from '@/components/about/MissionStatement'
+import GuidingPrinciple from '@/components/about/GuidingPrinciple'
+import Achievements from '@/components/about/Achievements'
+import Endorsement from '@/components/about/Endorsement'
 
 export const metadata = {
   title: 'About JFSRC'

@@ -1,9 +1,9 @@
-import Hero from './Home/Hero'
-import Intro from './Home/Intro'
-import WhatWeDo from './Home/WhatWeDo'
-import ElectionTimeline from './Home/ElectionTimeline'
-import ContactUsHome from './Home/ContactUs'
-import HomeNews from './Home/HomeNews'
+import Hero from '../components/Home/Hero'
+import Intro from '../components/Home/Intro'
+import WhatWeDo from '../components/Home/WhatWeDo'
+import ElectionTimeline from '../components/Home/ElectionTimeline'
+import ContactUsHome from '../components/Home/ContactUs'
+import HomeNews from '../components/Home/HomeNews'
 
 const Home = () => {
   return (

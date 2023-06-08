@@ -1,8 +1,8 @@
 import React from 'react'
-import HeroComponent from '../components/HeroComponent'
 import heroBg from '../../assets/contact-hero.jpg'
-import ContactIntro from './ContactIntro'
-import ContactSection from './ContactSection'
+import ContactIntro from '@/components/contact/ContactIntro'
+import ContactSection from '@/components/contact/ContactSection'
+import HeroComponent from '@/components/HeroComponent'
 
 export const metadata = {
   title: 'Contact Us | JFSRC'

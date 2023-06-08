@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroComponent from '../components/HeroComponent'
 import heroBg from '../../assets/volunteer-hero.jpeg'
-import WhyVolunteer from './WhyVolunteer'
-import WhatCanYouDo from './WhatCanYouDo'
-import JoinCampaignTeam from './JoinCampaignTeam'
+import HeroComponent from '@/components/HeroComponent'
+import WhyVolunteer from '@/components/volunteer/WhyVolunteer'
+import WhatCanYouDo from '@/components/volunteer/WhatCanYouDo'
+import JoinCampaignTeam from '@/components/volunteer/JoinCampaignTeam'
 
 export const metadata = {
   title: 'Volunteering | JFSRC'

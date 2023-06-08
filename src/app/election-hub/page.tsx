@@ -1,9 +1,10 @@
 import React from 'react'
-import HeroComponent from '../components/HeroComponent'
 import heroBg from '../../assets/electionhero.webp'
-import ElectionIntro from './ElectionIntro'
-import EducationVoting from './EducationVoting'
-import ElectionTimeline from '../Home/ElectionTimeline'
+import HeroComponent from '@/components/HeroComponent'
+import ElectionIntro from '@/components/election-hub/ElectionIntro'
+import EducationVoting from '@/components/election-hub/EducationVoting'
+import ElectionTimeline from '@/components/Home/ElectionTimeline'
+
 
 export const metadata = {
   title: 'Election Hub | JFSRC'
