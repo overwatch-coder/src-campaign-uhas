@@ -6,7 +6,7 @@ const AnnoncementCard = ({item}: {item: NewsType}) => {
   return (
     <section data-aos="zoom-in" className='flex items-center w-full px-5 py-2 space-x-4 bg-white rounded shadow'>
         <Image 
-            src={item.images[0]}
+            src={item.category.image}
             alt={item.title}
             width={400}
             height={400}

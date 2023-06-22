@@ -4,6 +4,8 @@ import Header from '../components/Header'
 import './globals.css'
 import { Metadata } from 'next'
 
+export const revalidate = 60;
+
 export const metadata: Metadata = {
   title: 'Welcome | JFSRC',
   description: 'This is a campaign website for SRC candidate Johnson Eziel of UHAS - Ghana',

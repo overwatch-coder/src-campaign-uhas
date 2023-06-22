@@ -14,7 +14,13 @@ const NewsDetails = () => {
       price: 0,
       description: "",
       title: "",
-      category: "",
+      category: {
+        id: 0,
+        name: "",
+        image: "",
+        creationAt: "",
+        updatedAt: ""
+      },
       creationAt: "",
       updatedAt: "",
     });
@@ -23,15 +29,15 @@ const NewsDetails = () => {
     const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
+      if(typeof document !== 'undefined'){
+        document.title = news.title
+      }
+
       const fetchSingleNews = async () => {
         setIsLoading(true);
         const data: NewsType = await FetchNews(`https://api.escuelajs.co/api/v1/products`, parseInt(id));
         setNews(data);
         setIsLoading(false);
-      }
-
-      if(typeof document !== 'undefined'){
-        document.title = news.title
       }
 
       const fetchAllNews = async () => {
@@ -59,7 +65,7 @@ const NewsDetails = () => {
               <p className='text-black/70'>Published : {news.creationAt.split('T')[0]}</p>
             </div>
             <Image 
-              src={news?.images[0]}
+              src={`https://picsum.photos/640/640?r=${Math.floor(Math.random() * 1000) + 1})`}
               alt={news?.title}
               width={500}
               height={500}
@@ -67,9 +73,8 @@ const NewsDetails = () => {
             />
 
             <p>{news?.description}</p>
-
             <Image 
-              src={news?.images[1]}
+              src={`https://picsum.photos/640/640?r=${Math.floor(Math.random() * 1000) + 1})`}
               alt={news?.title}
               width={500}
               height={500}

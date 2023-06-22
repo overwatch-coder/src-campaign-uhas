@@ -18,7 +18,7 @@ const HomeNews = async (): Promise<any>  => {
             </h3>
 
             <div className='grid grid-cols-1 gap-10 mx-auto md:grid-cols-2'>
-                {news?.filter((item: NewsType) => item.images[0].includes('picsum.photos')).slice(0,4).map((item, index) => (
+                {news?.filter((item: NewsType) => item.category.image.includes('picsum.photos')).slice(0,4).map((item, index) => (
                     <HomeNewsCard 
                         key={index}
                         item={item}
@@ -34,7 +34,7 @@ const HomeNews = async (): Promise<any>  => {
             </h3>
 
             <div className='flex flex-col space-y-4'>
-                {news?.filter((item: NewsType) => item.images[0].includes('picsum.photos')).slice(0,8).map((item, index) => (
+                {news?.filter((item: NewsType) => item.category.image.includes('picsum.photos')).slice(0,8).map((item, index) => (
                     <AnnoncementCard
                         key={index}
                         item={item}

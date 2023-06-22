@@ -4,7 +4,6 @@ type NewsType = {
     price: number,
     description: string,
     title: string,
-    category: string
     creationAt: string
     updatedAt: string, 
     category:  {

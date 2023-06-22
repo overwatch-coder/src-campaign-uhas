@@ -6,7 +6,7 @@ const HomeNewsCard = ({item}: {item: NewsType}) => {
   return (
     <div data-aos="zoom-in" className='relative flex flex-col px-4 py-2 space-y-4 bg-white rounded shadow'>
         <Image 
-            src={item.images[1]}
+            src={item.category.image}
             alt={item.title}
             width={500}
             height={500}
