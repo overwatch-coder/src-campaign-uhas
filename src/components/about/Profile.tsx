@@ -24,7 +24,7 @@ const Profile = () => {
             </h3>
 
             <p className='text-base text-center md:text-justify text-black/70 leading-[1.6] pt-3'>
-                John Smith is a dedicated and passionate individual running for the position of SRC President. With a strong commitment to serving the student community, John brings a wealth of experience and leadership qualities to the table. Known for their excellent communication skills and ability to collaborate effectively, John is determined to make a positive impact and represent the interests of all students.
+                Our vision is to elevate the status of the SRC as a highly respected and influential stakeholder within the University community, whose voice is not only heard but also valued and acted upon. The pivot of this journey is premised on HOPE, CHANGE and ACTION.
             </p>
 
             <section className='flex flex-col pt-2 space-y-3'>

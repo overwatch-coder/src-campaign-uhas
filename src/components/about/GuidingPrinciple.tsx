@@ -8,7 +8,7 @@ const GuidingPrinciple = () => {
         <h2 className='text-3xl font-semibold text-white lg:mx-auto font-oswald lg:text-4xl lg:max-w-3xl'>Guiding Principle</h2>
 
         <p className='text-white/70 text-justify leading-[1.7] lg:max-w-3xl lg:mx-auto lg:text-center'>
-            The campaign of John is built upon the guiding principle of inclusivity. He firmly believe that every student should have an equal voice and access to opportunities. By fostering an inclusive and diverse environment, John aims to create a student council that genuinely represents and supports the entire student body.
+          Our core values of integrity, accountability, and transparency serve as the guiding principles that underpin everything we do. We hold ourselves to the highest ethical standards, take responsibility for our actions, and operate with openness and honesty in all our dealings.
         </p>
     </section>
   )

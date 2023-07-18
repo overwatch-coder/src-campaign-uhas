@@ -7,7 +7,9 @@ const MissionStatement = () => {
     >
         <h2 className='text-lg font-medium uppercase text-red-main md:text-xl lg:max-w-3xl'>Mission Statement</h2>
 
-        <p className='text-sm text-black/70 md:text-base leading-[1.7] lg:max-w-3xl tracking-wide'>The mission of John campaign is to empower students and build a strong sense of community. They envision a student council that actively listens to students concerns, advocates for their rights, and provides support and resources to help them thrive academically, socially, and emotionally. Through transparent communication and collaborative initiatives, John aims to make a positive difference in the lives of all students.</p>
+      <p className='text-sm text-black/70 md:text-base leading-[1.7] lg:max-w-3xl tracking-wide'>
+      At the heart of our mission is the unwavering commitment to promote the academic and social welfare of students. We strive to foster a strong and collaborative relationship with all sections of the University, while ensuring that every structure of the SRC is functioning optimally.
+      </p>
 
         <div className='flex items-center space-x-4 md:mx-auto lg:max-w-3xl'>
             <Button

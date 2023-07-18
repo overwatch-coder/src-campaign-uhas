@@ -9,7 +9,7 @@ const Hero = () => {
 
         <div data-aos="fade-right" className='flex flex-col items-center mx-auto space-y-4 md:space-y-6 md:items-start'>
             <h1 className='text-4xl font-semibold md:text-5xl lg:text-6xl text-[#19097E] font-oswald tracking-wide leading-[1.6] text-center md:text-left'>
-                Johnson Eziel <br className='hidden lg:block' /> Fritz
+                Johnson Eziel <br className='hidden lg:block' />Weitzmann
             </h1>
             
             <p className='text-xl font-medium text-red-main'>Your Future SRC President</p>
