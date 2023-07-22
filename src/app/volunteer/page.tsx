@@ -6,7 +6,7 @@ import WhatCanYouDo from '@/components/volunteer/WhatCanYouDo'
 import JoinCampaignTeam from '@/components/volunteer/JoinCampaignTeam'
 
 export const metadata = {
-  title: 'Volunteering | JFSRC'
+  title: 'Volunteering | VaMiDzo'
 }
 
 const Volunteer = () => {
@@ -17,7 +17,7 @@ const Volunteer = () => {
         route='Volunteer'
       >
         <span>Volunteer</span>
-        <span className='text-red-main'>JFSRC</span>
+        <span className='text-red-main'>VaMiDzo</span>
       </HeroComponent>
       <WhyVolunteer />
       <WhatCanYouDo />

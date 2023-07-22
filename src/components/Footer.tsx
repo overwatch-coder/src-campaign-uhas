@@ -33,14 +33,14 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-col mt-5 space-y-3'> 
-            <h1 className='text-5xl md:text-7xl font-oswald text-red-main'>JFSRC</h1>
+            <h1 className='text-5xl md:text-7xl font-oswald text-red-main'>VaMiDzo</h1>
 
             <p className='text-xs tracking-wide md:text-sm'>Together, let us build a stronger student community.</p>
           </div>
         </div>
 
         <div className='w-full col-span-2 mt-5 text-center border-t-2 border-t-white/60'>
-          <p className='mt-6 text-sm'>Copyright © {new Date().getFullYear()} JFSRC  All Rights Reserved.</p>
+          <p className='mt-6 text-sm'>Copyright © {new Date().getFullYear()} VaMiDzo  All Rights Reserved.</p>
         </div>
     </footer>
   )

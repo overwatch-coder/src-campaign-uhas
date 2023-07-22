@@ -21,10 +21,10 @@ const Header = () => {
         <div className='z-40 flex items-center justify-between'>
             <Link 
                 href={'/'} 
-                className='text-2xl tracking-wide text-red-main font-oswald'
+                className='text-2xl font-bold tracking-wide text-red-main font-oswald'
                 onClick={() => setOpenMenu(false)}
             >
-                JFSRC
+                VaMiDzo
             </Link>
 
             <div className='z-40'>
