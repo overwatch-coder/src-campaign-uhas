@@ -1,5 +1,6 @@
 import React from 'react'
 import johnsonImage from '../../assets/johnson.png';
+import { aboutProfileImage } from '@/assets';
 import Image from 'next/image';
 import { AiFillFacebook, AiOutlineInstagram, AiOutlineTwitter, AiOutlineWhatsApp } from 'react-icons/ai';
 
@@ -9,11 +10,9 @@ const Profile = () => {
         className='flex flex-col items-center px-10 pb-12 mx-auto space-y-5 bg-white md:flex-row md:justify-between md:space-y-0 pt-7 md:space-x-16'
     >
         <Image 
-            src={johnsonImage}
+            src={aboutProfileImage}
             alt='profile picture - about us page'
-            className='object-contain w-[400px] md:w-full md:h-[400px] mx-auto'
-            width={500}
-            height={500}
+            className='object-contain w-[500px] md:w-full md:h-[500px] mx-auto'
         />
 
         <div className='flex flex-col items-center pt-10 space-y-3 md:max-w-2xl md:items-start md:pt-0 md:place-items-center'>
