@@ -11,18 +11,18 @@ const NewsDetails = () => {
     const [news, setNews] = useState<NewsType>({
       id: 0,
       images: [],
-      price: 0,
+      // price: 0,
       description: "",
       title: "",
       category: {
         id: 0,
         name: "",
         image: "",
-        creationAt: "",
-        updatedAt: ""
+        // creationAt: "",
+        // updatedAt: ""
       },
-      creationAt: "",
-      updatedAt: "",
+      // creationAt: "",
+      // updatedAt: "",
     });
     
     const [allNews, setAllNews] = useState<NewsType[]>([]);
@@ -62,7 +62,7 @@ const NewsDetails = () => {
           <div className='flex flex-col flex-1 space-y-7'>
             <div className='flex flex-col space-y-4'>
               <h2 className='text-xl font-semibold md:text-3xl'>{news.title}</h2>
-              <p className='text-black/70'>Published : {news.creationAt.split('T')[0]}</p>
+              {/* <p className='text-black/70'>Published : {news.creationAt.split('T')[0]}</p> */}
             </div>
             <Image 
               src={`https://picsum.photos/640/640?r=${Math.floor(Math.random() * 1000) + 1})`}
