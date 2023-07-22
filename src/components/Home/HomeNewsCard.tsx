@@ -13,12 +13,12 @@ const HomeNewsCard = ({item}: {item: NewsType}) => {
         />
         <p className='text-black'>{item.title.length > 20 ? item.title.slice(0,20) : item.title}</p>
         
-        <Link 
+        {/* <Link 
             className='text-black underline hover:text-red-main' 
             href={`/news/${item.id}`}
         >
             Read more
-        </Link>
+        </Link> */}
     </div>
   )
 }

@@ -1,13 +1,58 @@
 import React from 'react'
 import { MdRssFeed } from 'react-icons/md'
 import { TfiAnnouncement } from 'react-icons/tfi'
+import { vaMidzo, vaMidzo1, vaMidzo2, vaMidzo3, vaMidzo4 } from '@/assets'
 
 import HomeNewsCard from './HomeNewsCard'
 import AnnoncementCard from './AnnoncementCard'
-import { FetchNews } from '@/app/utils'
 
 const HomeNews = async (): Promise<any>  => {
-    const news: NewsType[] = await FetchNews('https://api.escuelajs.co/api/v1/products');
+    const news: NewsType[] = [
+        {
+            id: 1,
+            images: vaMidzo,
+            description: "vaMidzo",
+            title: "Action",
+            category:  {
+                id:  1,
+                name: "vaMidzo", 
+                image: vaMidzo,
+            } 
+        },
+        {
+            id: 2,
+            images: vaMidzo1,
+            description: "vaMidzo",
+            title: "Change",
+            category:  {
+                id:  2,
+                name: "vaMidzo", 
+                image: vaMidzo1,
+            } 
+        },
+       {
+            id: 3,
+            images: vaMidzo3,
+            description: "vaMidzo",
+            title: "Hope, Change, Action",
+            category:  {
+                id:  3,
+                name: "vaMidzo", 
+                image: vaMidzo3,
+            } 
+        },
+       {
+            id: 4,
+            images: vaMidzo4,
+            description: "vaMidzo",
+            title: "Action",
+            category:  {
+                id:  4,
+                name: "vaMidzo", 
+                image: vaMidzo4,
+            } 
+        },
+    ];
     
   return (
     <section className='flex flex-col px-10 pt-10 pb-16 space-y-5 bg-bg-primary md:flex-row md:justify-between md:space-y-0 md:space-x-10'>
@@ -18,9 +63,9 @@ const HomeNews = async (): Promise<any>  => {
             </h3>
 
             <div className='grid grid-cols-1 gap-10 mx-auto md:grid-cols-2'>
-                {news?.filter((item: NewsType) => item.category.image.includes('picsum.photos')).slice(0,4).map((item, index) => (
+                {news.map((item: NewsType) => (
                     <HomeNewsCard 
-                        key={index}
+                        key={item.id}
                         item={item}
                     />
                 ))}
@@ -34,9 +79,9 @@ const HomeNews = async (): Promise<any>  => {
             </h3>
 
             <div className='flex flex-col space-y-4'>
-                {news?.filter((item: NewsType) => item.category.image.includes('picsum.photos')).slice(0,8).map((item, index) => (
+                {news.map((item: NewsType) => (
                     <AnnoncementCard
-                        key={index}
+                        key={item.id}
                         item={item}
                     />
                 ))}

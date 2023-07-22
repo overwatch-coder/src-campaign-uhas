@@ -10,7 +10,8 @@ const ContactUsHome = () => {
             <h2 className='text-2xl font-semibold sm:text-3xl md:text-4xl font-oswald'>Contact Us</h2>
 
             <p className='text-sm md:text-base text-black/70'>Reach Out and Let Your Voice Be Heard</p>
-        </div>
+              
+          </div>
 
         <div className='flex flex-col justify-around space-y-5 sm:flex-row sm:space-y-0'>
             <div className='flex flex-col items-center space-y-3 text-center'>
