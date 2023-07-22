@@ -4,6 +4,7 @@ import vaMidzo2 from './vaMidzo2.jpeg'
 import vaMidzo3 from './vaMidzo3.jpeg'
 import vaMidzo4 from './vaMidzo4.jpeg'
 import aboutProfileImage from './_MG_1072.jpg'
+import footprint from './footprint.svg'
 
 export {
     vaMidzo,
@@ -11,5 +12,6 @@ export {
     vaMidzo2,
     vaMidzo3,
     vaMidzo4,
-    aboutProfileImage
+    aboutProfileImage,
+    footprint
 }
