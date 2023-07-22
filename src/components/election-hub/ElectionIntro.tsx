@@ -3,7 +3,7 @@ import React from 'react'
 const ElectionIntro = () => {
   return (
     <section
-        className='flex flex-col px-10 pt-10 pb-16 mx-auto space-y-5 bg-white'
+        className='flex flex-col px-10 pt-10 pb-16 mx-auto space-y-5 bg-white overflow-hidden'
     >
         <h2 className='text-2xl font-semibold text-center hover:text-yellow-700 text-yellow-600 md:text-3xl'>Updates About Electoral Processes</h2>
         <p className='text-black/70 tracking-wide leading-[1.8] text-center text-sm md:text-base'>

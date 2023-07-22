@@ -362,7 +362,7 @@ const Policies = () => {
 
   return (
     <section 
-        className='relative flex flex-col justify-between pt-5 pb-20 md:flex-row'
+        className='relative flex flex-col justify-between pt-5 pb-20 md:flex-row overflow-hidden'
     >
       {/* Policy Sidebar */}
         <aside

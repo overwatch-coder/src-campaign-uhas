@@ -7,7 +7,7 @@ import RenderElectionTime from './RenderElectionTime';
 
 const ElectionTimeline = () => {
   return (
-    <section className="relative px-10 py-5 bg-black election_bg h-[38vh] sm:h-[50vh]">
+    <section className="relative px-10 py-5 bg-black election_bg h-[38vh] sm:h-[50vh] overflow-hidden">
         <div className='absolute top-0 bottom-0 left-0 right-0 w-screen h-full bg-black/20'></div>
 
         <div className='mt-5 space-y-2 text-center md:mt-0'>

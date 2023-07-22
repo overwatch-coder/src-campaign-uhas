@@ -7,7 +7,7 @@ import { AiFillFacebook, AiOutlineInstagram, AiOutlineTwitter, AiOutlineWhatsApp
 const Profile = () => {
   return (
     <section 
-        className='flex flex-col items-center px-10 pb-12 mx-auto space-y-5 bg-white md:flex-row md:justify-between md:space-y-0 pt-7 md:space-x-16'
+        className='flex flex-col items-center px-10 pb-12 mx-auto space-y-5 bg-white md:flex-row md:justify-between md:space-y-0 pt-7 md:space-x-16 overflow-hidden'
     >
         <Image 
             src={aboutProfileImage}

@@ -4,7 +4,7 @@ import React from 'react'
 
 const AnnoncementCard = ({item}: {item: NewsType}) => {
   return (
-    <section data-aos="zoom-in" className='flex items-center w-full px-5 py-2 space-x-4 bg-white rounded shadow'>
+    <section data-aos="zoom-in" className='flex items-center w-full px-5 py-2 space-x-4 bg-white rounded shadow overflow-hidden'>
         <Image 
             src={item.category.image}
             alt={item.title}

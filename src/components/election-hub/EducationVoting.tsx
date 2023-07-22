@@ -43,7 +43,7 @@ const EducationVoting = () => {
 
   return (
     <section 
-      className='px-10 pt-10 pb-16 bg-bg-primary'
+      className='px-10 pt-10 pb-16 bg-bg-primary overflow-hidden'
       data-aos="fade-down"
     >
       <div className='flex flex-col items-center mx-auto space-y-4'>

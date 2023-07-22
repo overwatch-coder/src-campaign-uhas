@@ -6,7 +6,7 @@ import WhatCanYouDo from '@/components/volunteer/WhatCanYouDo'
 import JoinCampaignTeam from '@/components/volunteer/JoinCampaignTeam'
 
 export const metadata = {
-  title: 'Volunteering | VaMiDzo'
+  title: 'Volunteering | #VaMiDzo'
 }
 
 const Volunteer = () => {

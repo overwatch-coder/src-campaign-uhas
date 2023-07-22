@@ -6,7 +6,7 @@ import AchievementCard from './AchievementCard'
 const Achievements = () => {
   return (
     <section
-        className='px-10 pt-10 bg-bg-primary'
+        className='px-10 pt-10 bg-bg-primary overflow-hidden'
     >
         <div className='flex flex-col max-w-3xl mx-auto space-y-3 text-center'>
             <h2 className='text-3xl font-semibold text-blue-main font- md:text-4xl'>Achievements</h2>

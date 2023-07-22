@@ -3,7 +3,7 @@ import React from 'react'
 const AdditionalAchievements = () => {
   return (
     <section
-        className='px-10 pt-1 pb-16 bg-bg-primary'
+        className='px-10 pt-1 pb-16 bg-bg-primary overflow-hidden'
     >
         <div 
             className='mt-10 space-y-5 lg:space-y-0 lg:space-x-10 lg:flex-row lg:justify-between '

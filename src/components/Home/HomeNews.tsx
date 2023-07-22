@@ -11,29 +11,29 @@ const HomeNews = async (): Promise<any>  => {
         {
             id: 1,
             images: vaMidzo,
-            description: "vaMidzo",
+            description: "#vaMidzo",
             title: "Action",
             category:  {
                 id:  1,
-                name: "vaMidzo", 
+                name: "#vaMidzo", 
                 image: vaMidzo,
             } 
         },
         {
             id: 2,
             images: vaMidzo1,
-            description: "vaMidzo",
+            description: "#vaMidzo",
             title: "Change",
             category:  {
                 id:  2,
-                name: "vaMidzo", 
+                name: "#vaMidzo", 
                 image: vaMidzo1,
             } 
         },
        {
             id: 3,
             images: vaMidzo3,
-            description: "vaMidzo",
+            description: "#vaMidzo",
             title: "Hope, Change, Action",
             category:  {
                 id:  3,
@@ -44,18 +44,18 @@ const HomeNews = async (): Promise<any>  => {
        {
             id: 4,
             images: vaMidzo4,
-            description: "vaMidzo",
+            description: "#vaMidzo",
             title: "Action",
             category:  {
                 id:  4,
-                name: "vaMidzo", 
+                name: "#vaMidzo", 
                 image: vaMidzo4,
             } 
         },
     ];
     
   return (
-    <section className='flex flex-col px-10 pt-10 pb-16 space-y-5 bg-bg-primary md:flex-row md:justify-between md:space-y-0 md:space-x-10'>
+    <section className='flex flex-col px-10 pt-10 pb-16 space-y-5 bg-bg-primary md:flex-row md:justify-between md:space-y-0 md:space-x-10 overflow-hidden'>
         <div className='flex flex-col flex-1 space-y-5'>
             <h3 date-aos="slide-up" className='flex items-center pb-3 space-x-3 border-b-2 border-black'>
                 <MdRssFeed size={30} color='black' />

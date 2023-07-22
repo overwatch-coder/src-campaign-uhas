@@ -2,7 +2,7 @@ import React from 'react'
 
 const JoinCampaignTeam = () => {
   return (
-    <section className='grid grid-cols-1 px-10 pt-10 pb-16 md:grid-cols-2'>
+    <section className='grid grid-cols-1 px-10 pt-10 pb-16 md:grid-cols-2 overflow-hidden'>
       <div className='flex flex-col space-y-5'>
         <h3 className='text-xl font-semibold hover:text-yellow-700 text-yellow-600 font- md:text-2xl'>Join The Campaign Team</h3>
         <p className='text-sm text-black/70 md:text-base'>Joining our campaign team as a volunteer is easy! Simply fill out our volunteer application form, and we will get in touch with you shortly. Whether you have a specific skill set or are eager to learn, there are various roles and tasks available to match your interests and availability.</p>

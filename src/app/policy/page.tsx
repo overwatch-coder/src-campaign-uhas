@@ -16,7 +16,7 @@ const Policy = () => {
         image={heroBg}
         route='Policy'
       >
-        <span className='text-yellow-600'>VaMiDzo</span>
+        <span className='text-yellow-600'>#VaMiDzo</span>
         <span>Policies</span>
       </HeroComponent>
       <PolicyIntro />

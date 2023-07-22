@@ -3,7 +3,7 @@ import Button from '../../components/Button'
 
 const MissionStatement = () => {
   return (
-    <section className='flex flex-col px-10 pb-16 space-y-5 text-justify md:text-center md:mx-auto lg:items-center bg-bg-primary pt-7'
+    <section className='flex flex-col px-10 pb-16 space-y-5 text-justify md:text-center md:mx-auto lg:items-center bg-bg-primary pt-7 overflow-hidden'
     >
         <h2 className='text-lg font-medium uppercase hover:text-yellow-700 text-yellow-600 md:text-xl lg:max-w-3xl'>Mission Statement</h2>
 

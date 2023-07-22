@@ -3,7 +3,7 @@ import React from 'react'
 const Leadership = () => {
   return (
     <section
-        className='px-10 pt-10 pb-16 bg-white'
+        className='px-10 pt-10 pb-16 bg-white overflow-hidden'
     >
         <div className='flex flex-col max-w-3xl mx-auto space-y-3 text-center'>
             <h2 className='text-3xl font-semibold text-blue-main font-'>Leadership</h2>

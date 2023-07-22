@@ -11,7 +11,7 @@ type HeroTypeProps = {
 
 const HeroComponent = ({image, route, children}: HeroTypeProps) => {
   return (
-    <section className='relative pt-10 mx-auto text-center'>
+    <section className='relative pt-10 mx-auto text-center overflow-hidden'>
         {/* overlay */}
         <div className='absolute inset-0 bg-black/70'></div>
 

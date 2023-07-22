@@ -5,7 +5,7 @@ import ContactSection from '@/components/contact/ContactSection'
 import HeroComponent from '@/components/HeroComponent'
 
 export const metadata = {
-  title: 'Contact Us | VaMiDzo'
+  title: 'Contact Us | #VaMiDzo'
 }
 
 const ContactUs = () => {
@@ -16,7 +16,7 @@ const ContactUs = () => {
         route='Contact Us'
       >
         <span>Contact</span>
-        <span className='text-yellow-600'>VaMiDzo</span>
+        <span className='text-yellow-600'>#VaMiDzo</span>
       </HeroComponent>
       <ContactIntro />
       <ContactSection />

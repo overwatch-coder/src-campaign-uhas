@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const WhatWeDo = () => {
   return (
-      <section className='flex flex-col px-10 pt-10 pb-16 space-y-10 bg-primary'>
+      <section className='flex flex-col px-10 pt-10 pb-16 space-y-10 bg-primary overflow-hidden'>
         <div data-aos="fade-down" className='flex flex-col space-y-3'>
             <h2 className='text-2xl font-semibold text-center text-white md:text-3xl'>What We Are About</h2>
             

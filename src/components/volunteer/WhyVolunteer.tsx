@@ -5,7 +5,7 @@ import Image from 'next/image'
 const WhyVolunteer = () => {
   return (
     <section 
-      className='flex flex-col px-10 pt-10 pb-16 space-y-5 bg-white md:flex-row md:space-y-0 md:justify-between md:space-x-10 md:items-center'
+      className='flex flex-col px-10 pt-10 pb-16 space-y-5 bg-white md:flex-row md:space-y-0 md:justify-between md:space-x-10 md:items-center overflow-hidden'
     >
       <div 
         data-aos="fade-right"

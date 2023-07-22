@@ -4,7 +4,7 @@ import React from 'react'
 
 const HomeNewsCard = ({item}: {item: NewsType}) => {
   return (
-    <div data-aos="zoom-in" className='relative flex flex-col px-4 py-2 space-y-4 bg-white rounded shadow'>
+    <div data-aos="zoom-in" className='relative flex flex-col px-4 py-2 space-y-4 bg-white rounded shadow overflow-hidden'>
         <Image 
             src={item.category.image}
             alt={item.title}

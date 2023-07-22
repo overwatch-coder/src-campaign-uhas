@@ -3,7 +3,7 @@ import React from 'react'
 const GuidingPrinciple = () => {
   return (
     <section 
-        className='flex flex-col w-full px-10 pt-8 pb-16 space-y-5 lg:mx-auto lg:px-24 bg-blue-main'
+        className='flex flex-col w-full px-10 pt-8 pb-16 space-y-5 lg:mx-auto lg:px-24 bg-blue-main overflow-hidden'
     >
         <h2 className='text-3xl font-semibold text-white lg:mx-auto font-x-w-3xl'>Guiding Principle</h2>
 

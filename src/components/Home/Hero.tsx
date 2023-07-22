@@ -6,17 +6,25 @@ import { footprint } from '@/assets'
 
 const Hero = () => {
   return (
-    <section className='flex flex-col-reverse justify-around w-screen px-10 pb-10 space-y-1 md:items-center md:flex-row md:space-y-0 bg-bg-primary'>
+    <section className='flex flex-col-reverse justify-around w-screen px-10 pb-10 space-y-1 md:items-center md:flex-row md:space-y-0 bg-bg-primary overflow-hidden'>
 
           <div data-aos="fade-right" className='flex flex-col items-center mx-auto space-y-4 md:space-y-6 md:items-start'>
             <Image 
                 data-aos="fade-left"
                 src={footprint}
-                width={500}
-                height={500}
+                width={200}
+                height={200}
                 alt='Hero Image'
-                className='absolute -z-10'
-            />              
+                className='absolute -z-10 -right-10 -top-10'
+              />  
+                <Image 
+                data-aos="fade-left"
+                src={footprint}
+                width={200}
+                height={200}
+                alt='Hero Image'
+                className='absolute -z-10 -left-10 -bottom-10'
+            />    
             <h1 className='text-4xl font-semibold md:text-5xl lg:text-6xl text-[#19097E] tracking-wide leading-[1.6] text-center md:text-left'>
                 Johnson Eziel <br className='hidden lg:block' />Weitzmann
             </h1>

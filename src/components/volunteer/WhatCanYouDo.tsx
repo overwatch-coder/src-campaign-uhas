@@ -51,7 +51,7 @@ const WhatCanYouDo = () => {
   return (
     <section 
     data-aos="fade-down"
-      className='px-10 pt-10 pb-10 bg-bg-primary'
+      className='px-10 pt-10 pb-10 bg-bg-primary overflow-hidden'
     >
       <div className='flex flex-col items-center mx-auto space-y-4'>
         <h2 className='text-xl font-semibold text-center hover:text-yellow-700 text-yellow-600 md:text-2xl'>What Can You Do To Help?</h2>

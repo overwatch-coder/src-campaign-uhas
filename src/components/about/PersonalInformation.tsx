@@ -3,7 +3,7 @@ import React from 'react'
 const PersonalInformation = () => {
   return (
     <section 
-        className='flex flex-col w-full px-10 pt-8 pb-16 space-y-5 lg:mx-auto lg:px-24 bg-bg-primary'
+        className='flex flex-col w-full px-10 pt-8 pb-16 space-y-5 lg:mx-auto lg:px-24 bg-bg-primary overflow-hidden'
     >
         <h2 className='text-3xl font-semibold text-blue-main lg:mx-auto lg:text-4xl lg:max-w-3xl'>Personal Background</h2>
       <div className='p-4 w-2/4 bg-white mx-auto rounded shadow-md border-l-[10px] border-l-primary space-y-7'>

@@ -17,14 +17,14 @@ const Header = () => {
     ]
 
   return (
-    <header className='fixed top-0 z-50 flex flex-col w-screen px-10 py-2 bg-blue-main'>
+    <header className='fixed top-0 z-50 flex flex-col w-screen px-10 py-2 bg-blue-main overflow-hidden'>
         <div className='z-40 flex items-center justify-between'>
             <Link 
                 href={'/'} 
                 className='text-2xl font-bold tracking-wide text-yellow-600 '
                 onClick={() => setOpenMenu(false)}
             >
-                VaMiDzo
+                #VaMiDzo
             </Link>
 
             <div className='z-40'>

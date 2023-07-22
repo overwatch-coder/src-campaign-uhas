@@ -22,7 +22,7 @@ const AboutUs = () => {
         route='About'
       >
         <span>About</span>
-        <span className='text-yellow-600'>VaMiDzo</span>
+        <span className='text-yellow-600'>#VaMiDzo</span>
       </HeroComponent>
       <Profile />
       <MissionStatement />
