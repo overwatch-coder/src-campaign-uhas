@@ -7,7 +7,7 @@ import React, {useEffect, useState} from 'react'
 import ContentLoader from 'react-content-loader'
 
 const NewsDetails = () => {
-    const {id} = useParams();
+    // const {id} = useParams();
     const [news, setNews] = useState<NewsType>({
       id: 0,
       images: [],
@@ -35,8 +35,8 @@ const NewsDetails = () => {
 
       const fetchSingleNews = async () => {
         setIsLoading(true);
-        const data: NewsType = await FetchNews(`https://api.escuelajs.co/api/v1/products`, parseInt(id));
-        setNews(data);
+        // const data: NewsType = await FetchNews(`https://api.escuelajs.co/api/v1/products`, parseInt(id));
+        // setNews(data);
         setIsLoading(false);
       }
 
@@ -47,7 +47,9 @@ const NewsDetails = () => {
 
       fetchSingleNews();
       fetchAllNews();
-    }, [id, news.title])
+    }, [
+      // id,
+      news.title])
 
     const remainingNews = allNews?.filter(item => item.id !== news?.id);
 
@@ -88,7 +90,7 @@ const NewsDetails = () => {
             {remainingNews.slice(0,10).map((item, index) => (
               <section key={index} data-aos="zoom-in" className='flex items-center w-full px-5 py-2 space-x-4 bg-white rounded shadow'>
                 <div className='flex flex-col space-x-1 cursor-pointer'>
-                    <Link className='font-medium text-blue-main hover:text-red-main' href={`/news/${item.id}`}>
+                    <Link className='font-medium text-blue-main hover:text-yellow-700 text-yellow-600' href={`/news/${item.id}`}>
                         {item.title}
                     </Link>
                     <p className='text-xs text-black/60'>{item.description.slice(0,50)}...</p>

@@ -86,7 +86,7 @@ const ContactSection = () => {
             required={true}
         />
         </div>
-        <button className='w-full px-4 py-3 text-center text-white uppercase rounded bg-red-main hover:bg-red-800'>Send Message</button>
+        <button className='w-full px-4 py-3 text-center text-white uppercase rounded bg-yellow-600 hover:bg-yellow-700'>Send Message</button>
       </form>
     </section>
   )

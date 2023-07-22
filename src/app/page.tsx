@@ -1,4 +1,5 @@
 import Hero from '../components/Home/Hero'
+import MyDocument from '../pages/_document'
 import Intro from '../components/Home/Intro'
 import WhatWeDo from '../components/Home/WhatWeDo'
 import ElectionTimeline from '../components/Home/ElectionTimeline'

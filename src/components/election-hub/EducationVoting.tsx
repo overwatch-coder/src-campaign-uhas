@@ -47,7 +47,7 @@ const EducationVoting = () => {
       data-aos="fade-down"
     >
       <div className='flex flex-col items-center mx-auto space-y-4'>
-        <h2 className='text-xl font-semibold text-center text-red-main md:text-2xl'>Education on How to Get Registered and Vote</h2>
+        <h2 className='text-xl font-semibold text-center hover:text-yellow-700 text-yellow-600 md:text-2xl'>Education on How to Get Registered and Vote</h2>
         <p className='text-black/70 tracking-wide leading-[1.8] text-center text-sm md:text-base mx-auto md:max-w-4xl'>Your voice matters, and we want to make sure you can exercise your voting rights with ease. Our comprehensive voting guide will walk you through the registration and voting process.</p>
       </div>
 

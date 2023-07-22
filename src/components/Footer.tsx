@@ -18,11 +18,11 @@ const Footer = () => {
       <div className='flex flex-col gap-y-7'>
         <h2 className='border-b-2 border-b-white w-fit'>Useful Links</h2>
 
-        <Link href={'/about'} className='hover:text-red-main w-fit hover:scale-105'>About Us</Link>
-        <Link href={'/policy'} className='hover:text-red-main w-fit hover:scale-105'>Our Policies</Link>
-        <Link href={'/election-hub'} className='hover:text-red-main w-fit hover:scale-105'>Election Hub</Link>
-        <Link href={'/volunteer'} className='hover:text-red-main w-fit hover:scale-105'>Volunteer</Link>
-        <Link href={'/'} className='hover:text-red-main w-fit'>Privacy Policy</Link>
+        <Link href={'/about'} className='hover:text-yellow-700 text-yellow-600 w-fit hover:scale-105'>About Us</Link>
+        <Link href={'/policy'} className='hover:text-yellow-700 text-yellow-600 w-fit hover:scale-105'>Our Policies</Link>
+        <Link href={'/election-hub'} className='hover:text-yellow-700 text-yellow-600 w-fit hover:scale-105'>Election Hub</Link>
+        <Link href={'/volunteer'} className='hover:text-yellow-700 text-yellow-600 w-fit hover:scale-105'>Volunteer</Link>
+        <Link href={'/'} className='hover:text-yellow-700 text-yellow-600 w-fit'>Privacy Policy</Link>
       </div>
         
         <div className='flex flex-col gap-y-7'>
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-col mt-5 space-y-3'> 
-            <h1 className='text-5xl md:text-7xl font-oswald text-red-main'>VaMiDzo</h1>
+            <h1 className='text-5xl md:text-7xl text-yellow-600'>VaMiDzo</h1>
 
             <p className='text-xs tracking-wide md:text-sm'>Together, let us build a stronger student community.</p>
           </div>

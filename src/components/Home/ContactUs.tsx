@@ -7,7 +7,7 @@ const ContactUsHome = () => {
         className='flex flex-col px-10 pt-10 pb-16 space-y-4 bg-bg-primary'
     >
         <div className='flex flex-col items-center mb-5 space-y-2 text-center'>
-            <h2 className='text-2xl font-semibold sm:text-3xl md:text-4xl font-oswald'>Contact Us</h2>
+            <h2 className='text-2xl font-semibold sm:text-3xl md:text-4xl '>Contact Us</h2>
 
             <p className='text-sm md:text-base text-black/70'>Reach Out and Let Your Voice Be Heard</p>
               
@@ -73,7 +73,7 @@ const ContactUsHome = () => {
                 ></textarea>
             </div>
             
-            <button className='px-10 py-3 mx-auto text-center text-white rounded-full hover:bg-red-800 bg-red-main w-fit'>Submit</button>
+            <button className='px-10 py-3 mx-auto text-center text-white rounded-full hover:bg-yellow-700 bg-yellow-600 w-fit'>Submit</button>
         </form>
     </section>
   )

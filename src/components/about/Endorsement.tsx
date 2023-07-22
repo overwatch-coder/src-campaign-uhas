@@ -5,7 +5,7 @@ const Endorsement = () => {
     <section 
         className='flex flex-col px-10 pt-10 pb-16 mx-auto space-y-4 bg-white md:max-w-4xl'
     >
-        <h2 className='text-3xl font-semibold md:text-center md:text-4xl text-red-main font-oswald'>Endorsements</h2>
+        <h2 className='text-3xl font-semibold md:text-center md:text-4xl hover:text-yellow-700 text-yellow-600 font-'>Endorsements</h2>
         <div className='text-black/70 md:text-center'>
             <p className='leading-[1.7]'>
                 John is honored to have received endorsements from respected faculty members, student organizations, and influential individuals. These endorsements highlight the confidence and trust placed in thne leadership abilities of John and his dedication to the betterment of the student community. 

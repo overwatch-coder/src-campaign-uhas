@@ -6,7 +6,7 @@ const Leadership = () => {
         className='px-10 pt-10 pb-16 bg-white'
     >
         <div className='flex flex-col max-w-3xl mx-auto space-y-3 text-center'>
-            <h2 className='text-3xl font-semibold text-blue-main font-oswald md:text-4xl'>Leadership</h2>
+            <h2 className='text-3xl font-semibold text-blue-main font-'>Leadership</h2>
             <p className='text-black/70 text-sm tracking-wide leading-[1.6]'>Johnson has actively engaged in leadership roles and demonstrated a strong track record of accomplishments.</p>
         </div>
 

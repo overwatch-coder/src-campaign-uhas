@@ -1,5 +1,5 @@
 type NewsType = {
-    id: number,
+    id?: number,
     images: any,
     // price: number,
     description: string,

@@ -17,7 +17,7 @@ const ElectionHub = () => {
         image={heroBg}
         route='Election Hub'
       >
-        <span className='text-red-main'>VaMiDzo</span>
+        <span className='text-yellow-600'>VaMiDzo</span>
         <span className=''>Elections</span>
       </HeroComponent>
       <ElectionIntro />

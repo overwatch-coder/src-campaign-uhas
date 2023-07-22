@@ -17,7 +17,7 @@ const Volunteer = () => {
         route='Volunteer'
       >
         <span>Volunteer</span>
-        <span className='text-red-main'>VaMiDzo</span>
+        <span className='text-yellow-600'>VaMiDzo</span>
       </HeroComponent>
       <WhyVolunteer />
       <WhatCanYouDo />

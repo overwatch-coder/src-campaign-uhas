@@ -17,11 +17,11 @@ const Hero = () => {
                 alt='Hero Image'
                 className='absolute -z-10'
             />              
-            <h1 className='text-4xl font-semibold md:text-5xl lg:text-6xl text-[#19097E] font-oswald tracking-wide leading-[1.6] text-center md:text-left'>
+            <h1 className='text-4xl font-semibold md:text-5xl lg:text-6xl text-[#19097E] tracking-wide leading-[1.6] text-center md:text-left'>
                 Johnson Eziel <br className='hidden lg:block' />Weitzmann
             </h1>
             
-            <p className='text-xl font-medium text-red-main'>Your Future SRC President</p>
+            <p className='text-xl font-medium hover:text-yellow-700 text-yellow-600'>Your Future SRC President</p>
 
             <div className='flex items-center space-x-3'>
                 <Button 
@@ -33,7 +33,7 @@ const Hero = () => {
                 <Button 
                     path="/" 
                     text='Donate'
-                    classes='bg-red-main text-white uppercase hover:bg-red-800 px-4 py-2 rounded'
+                    classes='bg-yellow-600 text-white uppercase hover:bg-yellow-700 px-4 py-2 rounded'
                 />
             </div>
         </div>

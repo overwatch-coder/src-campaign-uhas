@@ -10,18 +10,18 @@ const WhyVolunteer = () => {
       <div 
         data-aos="fade-right"
         className='flex flex-col pt-10 space-y-5 md:pt-0'>
-        <h2 className='text-xl font-semibold font-oswald md:text-2xl text-red-main'>Why Volunteer with Us?</h2>
+        <h2 className='text-xl font-semibold font- md:text-2xl hover:text-yellow-700 text-yellow-600'>Why Volunteer with Us?</h2>
 
         <li className='space-x-2 text-sm text-black/70 md:text-base'>
-          <span className='font-medium text-red-main'>Make an impact:</span> Your efforts as a volunteer can directly contribute to our campaign success and the positive change we aim to achieve.
+          <span className='font-medium hover:text-yellow-700 text-yellow-600'>Make an impact:</span> Your efforts as a volunteer can directly contribute to our campaign success and the positive change we aim to achieve.
         </li>
 
         <li className='space-x-2 text-sm text-black/70 md:text-base'>
-          <span className='font-medium text-red-main'>Engage with the community:</span> Connect with like-minded individuals, forge meaningful relationships, and be part of a supportive community of changemakers.
+          <span className='font-medium hover:text-yellow-700 text-yellow-600'>Engage with the community:</span> Connect with like-minded individuals, forge meaningful relationships, and be part of a supportive community of changemakers.
         </li>
 
         <li className='space-x-2 text-sm text-black/70 md:text-base'>
-          <span className='font-medium text-red-main'>Learn and grow:</span> Volunteering offers a valuable opportunity to gain new skills, expand your network, and develop a deeper understanding of grassroots movements.
+          <span className='font-medium hover:text-yellow-700 text-yellow-600'>Learn and grow:</span> Volunteering offers a valuable opportunity to gain new skills, expand your network, and develop a deeper understanding of grassroots movements.
         </li> 
       </div>
       

@@ -4,7 +4,7 @@ const JoinCampaignTeam = () => {
   return (
     <section className='grid grid-cols-1 px-10 pt-10 pb-16 md:grid-cols-2'>
       <div className='flex flex-col space-y-5'>
-        <h3 className='text-xl font-semibold text-red-main font-oswald md:text-2xl'>Join The Campaign Team</h3>
+        <h3 className='text-xl font-semibold hover:text-yellow-700 text-yellow-600 font- md:text-2xl'>Join The Campaign Team</h3>
         <p className='text-sm text-black/70 md:text-base'>Joining our campaign team as a volunteer is easy! Simply fill out our volunteer application form, and we will get in touch with you shortly. Whether you have a specific skill set or are eager to learn, there are various roles and tasks available to match your interests and availability.</p>
         <p className='font-medium'>Together, we can make a real difference!</p>
       </div>
@@ -90,7 +90,7 @@ const JoinCampaignTeam = () => {
             <label htmlFor="events" className='text-white/60'>Events</label>
           </div>
         </div>
-        <button className='w-full px-4 py-3 text-center text-white uppercase rounded bg-red-main hover:bg-red-800'>I am In</button>
+        <button className='w-full px-4 py-3 text-center text-white uppercase rounded bg-yellow-600 hover:bg-yellow-700'>I am In</button>
       </form>
     </section>
   )

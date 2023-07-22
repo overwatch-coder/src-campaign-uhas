@@ -16,10 +16,10 @@ const Profile = () => {
         />
 
         <div className='flex flex-col items-center pt-10 space-y-3 md:max-w-2xl md:items-start md:pt-0 md:place-items-center'>
-            <h2 className='text-base font-semibold md:text-lg text-red-main'>Profile</h2>
-            <h3 className='flex items-center space-x-2 text-2xl font-semibold md:text-3xl font-oswald'>
+            <h2 className='text-base font-semibold md:text-lg hover:text-yellow-700 text-yellow-600'>Profile</h2>
+            <h3 className='flex items-center space-x-2 text-2xl font-semibold md:text-3xl'>
                 <span>Why Choose</span>
-                <span className='text-red-main'>Johnson</span>
+                <span className='hover:text-yellow-700'>Johnson</span>
             </h3>
 
             <p className='text-base text-center md:text-justify text-black/70 leading-[1.6] pt-3'>
@@ -27,19 +27,19 @@ const Profile = () => {
             </p>
 
             <section className='flex flex-col pt-2 space-y-3'>
-                <h3 className='font-medium text-red-main'>Follow My Campaign Journey</h3>
+                <h3 className='font-medium hover:text-yellow-700'>Follow My Campaign Journey</h3>
                 
                 <div className='flex items-center mx-auto space-x-5 md:mx-0'>
-                    <a href={'/'} target='_blank' className='hover:text-red-700 hover:scale-125'>
+                    <a href={'/'} target='_blank' className='hover:text-yellow-600 hover:scale-125'>
                         <AiFillFacebook size={28} />
                     </a>
-                    <a href={'/'} target='_blank' className='hover:text-red-700 hover:scale-125'>
+                    <a href={'/'} target='_blank' className='hover:text-yellow-600 hover:scale-125'>
                         <AiOutlineTwitter size={28} />
                     </a>
-                    <a href={'/'} target='_blank' className='hover:text-red-700 hover:scale-125'>
+                    <a href={'/'} target='_blank' className='hover:text-yellow-600 hover:scale-125'>
                         <AiOutlineInstagram size={28} />
                     </a>
-                    <a href={'/'} target='_blank' className='hover:text-red-700 hover:scale-125'>
+                    <a href={'/'} target='_blank' className='hover:text-yellow-600 hover:scale-125'>
                         <AiOutlineWhatsApp size={28} />
                     </a>
                 </div>

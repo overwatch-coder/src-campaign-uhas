@@ -20,8 +20,8 @@ const RenderElectionTime = ({ days, hours, minutes, seconds, completed }: Countd
         return (
             <div className='flex items-center justify-center space-x-3 md:space-x-7'>
 
-                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-red-main'>
-                    <p className='text-3xl font-semibold md:text-5xl font-oswald'
+                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-yellow-600'>
+                    <p className='text-3xl font-semibold md:text-5xl font-'
                     >
                         {days}
                     </p>
@@ -30,8 +30,8 @@ const RenderElectionTime = ({ days, hours, minutes, seconds, completed }: Countd
 
                 <span className='text-xl font-bold text-white'>:</span>
 
-                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-red-main'>
-                    <p className='text-3xl font-semibold md:text-5xl font-oswald'
+                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-yellow-600'>
+                    <p className='text-3xl font-semibold md:text-5xl font-'
                     >
                         {hours}
                     </p>
@@ -40,8 +40,8 @@ const RenderElectionTime = ({ days, hours, minutes, seconds, completed }: Countd
 
                 <span className='text-xl font-bold text-white'>:</span>
 
-                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-red-main'>
-                    <p className='text-3xl font-semibold md:text-5xl font-oswald'
+                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-yellow-600'>
+                    <p className='text-3xl font-semibold md:text-5xl font-'
                     >
                         {minutes}
                     </p>
@@ -50,8 +50,8 @@ const RenderElectionTime = ({ days, hours, minutes, seconds, completed }: Countd
 
                 <span className='text-xl font-bold text-white'>:</span>
                 
-                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-red-main'>
-                    <div className='text-3xl font-semibold md:text-5xl font-oswald'
+                <div className='flex flex-col p-3 space-y-3 text-center text-white rounded bg-yellow-600'>
+                    <div className='text-3xl font-semibold md:text-5xl font-'
                     >
                         {seconds}
                     </div>

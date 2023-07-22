@@ -11,7 +11,7 @@ const ElectionTimeline = () => {
         <div className='absolute top-0 bottom-0 left-0 right-0 w-screen h-full bg-black/20'></div>
 
         <div className='mt-5 space-y-2 text-center md:mt-0'>
-            <h2 className='text-2xl font-semibold text-red-main md:text-3xl font-oswald'
+            <h2 className='text-2xl font-semibold hover:text-yellow-700 text-yellow-600 llow-600llow-600llow-600llow-600 md:text-3xl'
             >
                 Elections Start Timeline
             </h2>

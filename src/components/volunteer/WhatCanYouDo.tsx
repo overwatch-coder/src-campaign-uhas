@@ -54,7 +54,7 @@ const WhatCanYouDo = () => {
       className='px-10 pt-10 pb-10 bg-bg-primary'
     >
       <div className='flex flex-col items-center mx-auto space-y-4'>
-        <h2 className='text-xl font-semibold text-center text-red-main md:text-2xl'>What Can You Do To Help?</h2>
+        <h2 className='text-xl font-semibold text-center hover:text-yellow-700 text-yellow-600 md:text-2xl'>What Can You Do To Help?</h2>
         <p className='text-black/70 tracking-wide leading-[1.8] text-center text-sm md:text-base mx-auto md:max-w-4xl'>
           We believe that everyone has something valuable to contribute. 
           There are numerous ways you can get involved and make a difference in our campaign.

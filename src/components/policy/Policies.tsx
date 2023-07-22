@@ -388,7 +388,7 @@ const Policies = () => {
           <button 
             key={index}
             data-aos="fade-down"
-            className={`rounded  px-3 py-3  text-sm ${index+1 !== currentPolicy ? "bg-white text-black/80" : "bg-red-main text-white"}`
+            className={`rounded  px-3 py-3  text-sm ${index+1 !== currentPolicy ? "bg-white text-black/80" : "bg-yellow-600 text-white"}`
           }
           onClick={() => {setCurrentPolicy(index + 1); setShowPolicyCategory(false)}}
           >
@@ -402,7 +402,7 @@ const Policies = () => {
           {policies.filter(policy => policy.id === currentPolicy).map((policy, index) => (
             <div data-aos="fade-up" key={index} className='flex flex-col space-y-5'>
 
-              <h3 className='pt-6 text-xl font-semibold text-red-main md:text-2xl md:pt-0'>{policy.title}</h3>
+              <h3 className='pt-6 text-xl font-semibold hover:text-yellow-700 text-yellow-600 md:text-2xl md:pt-0'>{policy.title}</h3>
               <p className='pt-6'>{policy.preamble}</p>
 
               <div className='flex flex-col space-y-6'>

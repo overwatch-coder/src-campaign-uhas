@@ -21,7 +21,7 @@ const Header = () => {
         <div className='z-40 flex items-center justify-between'>
             <Link 
                 href={'/'} 
-                className='text-2xl font-bold tracking-wide text-red-main font-oswald'
+                className='text-2xl font-bold tracking-wide text-yellow-600 '
                 onClick={() => setOpenMenu(false)}
             >
                 VaMiDzo
@@ -40,7 +40,7 @@ const Header = () => {
                     {NavLinks.map((link, index) => (
                         <Link 
                             key={index}
-                            href={link.path} className={`uppercase hover:text-red-main active:text-red-main ${link.path === pathname ? "text-red-main" : "text-white"}`}
+                            href={link.path} className={`hover:text-yellow-700 active:text-yellow-600 ${link.path === pathname ? "text-yellow-600" : "text-white"}`}
                             onClick={() => setOpenMenu(prev => !prev)}
                         >
                             {link.title}
@@ -50,7 +50,7 @@ const Header = () => {
                     <Link 
                         onClick={() => setOpenMenu(false)}
                         href={'/'} 
-                        className='px-3 py-2 text-center text-white uppercase rounded bg-red-main w-fit hover:bg-red-800'
+                        className='px-3 py-2 text-center text-white uppercase rounded bg-yellow-600 w-fit hover:bg-yellow'
                     >
                         Donate
                     </Link>
@@ -63,7 +63,7 @@ const Header = () => {
             {NavLinks.map((link, index) => (
                 <Link 
                     key={index}
-                    href={link.path} className={`uppercase hover:text-red-main active:text-red-main ${link.path === pathname ? "text-red-main" : "text-white"}`}
+                    href={link.path} className={`hover:text-yellow-700 active:text-yellow-600 ${link.path === pathname ? "hover:text-yellow-700 text-yellow-600" : "text-white"}`}
                     onClick={() => setOpenMenu(prev => !prev)}
                 >
                     {link.title}
@@ -72,7 +72,7 @@ const Header = () => {
 
             <Link 
                 href={'/'} 
-                className='w-full px-3 py-4 text-center text-white uppercase rounded md:py-2 bg-red-main md:w-fit hover:bg-red-800'
+                className='w-full px-3 py-4 text-center text-white uppercase rounded md:py-2 bg-yellow-600 md:w-fit hover:bg-yellow-700'
                 onClick={() => setOpenMenu(false)}
             >
                 Donate

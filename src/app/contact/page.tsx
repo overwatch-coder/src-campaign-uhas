@@ -16,7 +16,7 @@ const ContactUs = () => {
         route='Contact Us'
       >
         <span>Contact</span>
-        <span className='text-red-main'>VaMiDzo</span>
+        <span className='text-yellow-600'>VaMiDzo</span>
       </HeroComponent>
       <ContactIntro />
       <ContactSection />

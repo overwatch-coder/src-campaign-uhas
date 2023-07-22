@@ -31,12 +31,12 @@ const HeroComponent = ({image, route, children}: HeroTypeProps) => {
                 className='absolute -z-10 -right-11 -top-11'
             />  
 
-            <h2 className='flex items-center space-x-3 text-4xl font-semibold text-white md:text-5xl font-oswald'>
+            <h2 className='flex items-center space-x-3 text-4xl font-semibold text-white md:text-5xl font-'>
                 {children}
             </h2>
 
             <div className='flex items-center mx-auto space-x-2 text-center'>
-                <Link href={'/'} className='text-red-600 underline hover:text-red-800'>Home</Link>
+                <Link href={'/'} className='text-yellow-600 underline hover:text-yellow-800'>Home</Link>
                 <span className='text-white'>/</span>
                 <span className='text-white'>{route}</span>
             </div>
