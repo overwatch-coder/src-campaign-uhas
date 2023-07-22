@@ -1,6 +1,7 @@
 import React from 'react'
 import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
+import { footprint } from '@/assets'
 
 type HeroTypeProps = {
     image: StaticImageData,
@@ -20,7 +21,15 @@ const HeroComponent = ({image, route, children}: HeroTypeProps) => {
             className='object-cover w-full h-[30vh] md:h-[40vh]'
         />
 
-        <div className='absolute flex flex-col mx-auto mt-5 space-y-4 text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'>
+          <div className='absolute flex flex-col mx-auto mt-5 space-y-4 text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'>
+              <Image 
+                data-aos="fade-left"
+                src={footprint}
+                width={150}
+                height={150}
+                alt='Hero Image'
+                className='absolute -z-10 -right-11 -top-11'
+            />  
 
             <h2 className='flex items-center space-x-3 text-4xl font-semibold text-white md:text-5xl font-oswald'>
                 {children}
