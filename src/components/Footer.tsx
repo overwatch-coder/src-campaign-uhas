@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { footprint } from '@/assets'
 const Footer = () => {
   return (
-    <footer className='z-50 grid w-screen grid-cols-2 px-5 pt-10 pb-5 text-white gap-7 md:grid-cols-2 bg-blue-main md:place-items-center relative'>
+    <footer className='z-50 grid w-screen grid-cols-2 px-5 pt-10 pb-5 text-white gap-7 md:grid-cols-2 bg-blue-main md:place-items-center relative overflow-hidden'>
         <Image 
           data-aos="fade-left"
           src={footprint}
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           <div className='flex flex-col mt-5 space-y-3 mr-3'> 
-            <h1 className='text-5xl md:text-7xl text-yellow-600 '>#VaMiDzo</h1>
+            <h1 className='text-xl md:text-7xl sm:text-4xl text-yellow-600'>#VaMiDzo</h1>
 
             <p className='text-xs tracking-wide md:text-sm'>Together, let us build a stronger student community.</p>
           </div>
