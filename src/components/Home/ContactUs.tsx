@@ -17,24 +17,22 @@ const ContactUsHome = () => {
             <div className='flex flex-col items-center space-y-3 text-center'>
                 <MdLocationPin size={35} color='black' />
                 <address className='space-y-1'>
-                    <p className='text-sm text-black/80'>Collins StreetVictoria,</p> 
-                    <p className='text-sm text-black/80'>NewYork, USA</p>
+                    <p className='text-sm text-black/80'>University of Health and Allied Science</p> 
+                    <p className='text-sm text-black/80'>Ho, Ghana</p>
                 </address>
             </div>
 
             <div className='flex flex-col items-center space-y-3 text-center'>
                 <MdLocalPhone size={35} color='black' />
                 <div className='space-y-1'>
-                    <p className='text-sm text-black/80'>+33 6 94 445 516</p> 
-                    <p className='text-sm text-black/80'>+25 4 85 665 441</p>
+                    <p className='text-sm text-black/80'>+233 54 403 8175</p> 
                 </div>
             </div>
 
             <div className='flex flex-col items-center space-y-3 text-center'>
                 <MdEmail size={35} color='black' />
                 <div className='space-y-1'>
-                    <p className='text-sm text-black/80'>astute@example.com</p> 
-                    <p className='text-sm text-black/80'>demo@example.com</p>
+                    <p className='text-sm text-black/80'>ezieljohnson@gmail.com</p> 
                 </div>
             </div>
         </div>

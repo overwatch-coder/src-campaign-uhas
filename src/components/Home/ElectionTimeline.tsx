@@ -23,7 +23,7 @@ const ElectionTimeline = () => {
         
         <div className='text-center mt-7'>
             <Countdown
-                date={'2023-07-25T00:00:00'}
+                date={'2023-08-25T00:00:00'}
                 renderer={RenderElectionTime }
                 autoStart={true}
             />

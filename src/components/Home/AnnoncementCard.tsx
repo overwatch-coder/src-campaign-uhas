@@ -13,7 +13,7 @@ const AnnoncementCard = ({item}: {item: NewsType}) => {
             className='object-contain w-[60px] h-[60px] rounded-full'
         />
         <div className='flex flex-col space-x-1 cursor-pointer'>
-            <Link className='font-medium text-blue-main hover:text-yellow-700 text-yellow-600' href={`/news/${item.id}`}>
+            <Link className='font-medium hover:text-yellow-700 text-yellow-600' href={`/news/${item.id}`}>
                 {item.title}
             </Link>
             <p className='text-xs text-black/60'>{item.description.slice(0,50)}...</p>

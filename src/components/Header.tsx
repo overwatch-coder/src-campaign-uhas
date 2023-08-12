@@ -13,6 +13,7 @@ const Header = () => {
         { title: 'Policy', path: '/policy'},
         { title: 'Election Hub', path: '/election-hub'},
         { title: 'Volunteer', path: '/volunteer'},
+        { title: 'Gallery', path: '/gallery'},
         { title: 'Contact Us', path: '/contact'},
     ]
 
