@@ -59,6 +59,8 @@ const Header = () => {
             </div>
         </div>
 
+          
+          
         {/* Mobile Navbar  */}
         <nav className={`flex flex-col items-start mt-5 space-y-6 text-sm md:hidden ${openMenu ? "flex" : "hidden"} pb-10 text-white`}>
             {NavLinks.map((link, index) => (
