@@ -66,6 +66,7 @@ const Header = () => {
                     key={index}
                     href={link.path} className={`hover:text-yellow-700 active:text-yellow-600 ${link.path === pathname ? "hover:text-yellow-700 text-yellow-600" : "text-white"}`}
                     onClick={() => setOpenMenu(prev => !prev)}
+                    style={{width: "100%"}}
                 >
                     {link.title}
                 </Link>
