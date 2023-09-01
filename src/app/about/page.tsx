@@ -1,5 +1,5 @@
 import React from 'react'
-import heroBg from '../../assets/about-hero.jpeg'
+import { gallery11 } from '@/assets'
 import HeroComponent from '../../components/HeroComponent'
 import Profile from '@/components/about/Profile'
 import MissionStatement from '@/components/about/MissionStatement'
@@ -18,7 +18,7 @@ const AboutUs = () => {
   return (
     <section>
       <HeroComponent 
-        image={heroBg}
+        image={gallery11}
         route='About'
       >
         <span>About</span>

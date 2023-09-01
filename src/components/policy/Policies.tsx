@@ -23,19 +23,7 @@ const Policies = () => {
             describe: 'The following actions, in our opinion, can contribute to achieving this objective:',
             subtitle: '',
             point: '• Cooperation with departmental associations, churches, clubs, and societies as significant decision-makers through sporadic stakeholder meetings to ensure active engagement of all institutions under the SRC.',
-            point1: `• Boosting judicial and legislative councils. 
-            Recent events have given the SRC Parliamentary and Judicial Councils 
-            the appearance of being less proactive. Furthermore, 
-            it appears that the two branches of government's importance in SRC governance is 
-            losing ground. Due to apparent outside involvement in what ought to be 
-            an autonomous organization, confidence in the Judicial Council 
-            likewise appears to be 
-            ebbing. The Johnson-Mensah-led administration will ensure 
-            that the Parliamentary and Judicial Councils are held in high regard. 
-            It will be committed to providing them with the resources 
-            they need to fulfill their constitutional duties and increasing 
-            their visibility without interference from the Executive or any other 
-            outside body.`,
+            point1: `• The Johnson-Mensah-led administration will ensure that the Parliamentary and Judicial Councils are held in high regard. It will be committed to providing them with the resources they need to fulfill their constitutional duties and increasing their visibility without interference from the Executive or any other outside body.`,
             point2: `• Increase relevance and connection with students. 
             This will be done through the creation of Town Hall meetings, 
             creation of an online feedback system and an SRC website with more updated, 
@@ -126,10 +114,7 @@ const Policies = () => {
           title: 'The “No Chair” Bug',
           description: {
             subtitle: 'Problem:',
-            describe: `The public outcry by students on the lack of chairs in lecture halls has been an aged one. 
-            The struggle for chairs during lectures is nothing to write home about. 
-            This is a systemic problem that has plagued us for years and neds a systemic and structural change.
-             will:`,
+            describe: `The public outcry by students on the lack of chairs in lecture halls has been an aged one. The struggle for chairs during lectures is nothing to write home about. This is a systemic problem that has plagued us for years and needs a systemic and structural change.`,
             point: '.'
           }
         },
@@ -137,11 +122,7 @@ const Policies = () => {
           title: '',
           description: {
             subtitle: 'Tipping point:',
-            describe: `This everyday hustle obviously retrogresses efforts by the university to promote a friendly academic environment.
-            It goes a long way to harm student comfortability and generally breeds a hostile learning environment. Also, with the Universities’
-            continuous increase in the intake of freshmen, there is an urgency beyond reasonable doubt to act now.
-            The big question is whether the failure to remedy the problem is due to reluctance on the side of management or the disease remains an incurable one?
-           `,
+            describe: `This everyday hustle obviously retrogresses efforts by the university to promote a friendly academic environment. It goes a long way to harm student comfort and generally breeds a hostile learning environment. Also, with the Universities’ continuous increase in the intake of freshmen, there is an urgency beyond a reasonable doubt to act now. The big question is whether the failure to remedy the problem is due to reluctance on the side of management or whether the disease remains an incurable one.`,
             point: '.',
             }
         },
@@ -152,7 +133,7 @@ const Policies = () => {
             describe: ` A Johnson-Mensah administration believes that strong political will can bring resolve
             to the problem. We will:`,
             point: 'a. Liaise with the Academics Affairs Unit to immediately review class allocations. Which will be based on class population and lecture hall sizes to ensure that classes with larger numbers are allocated to bigger lecture halls whiles those with smaller numbers are allocated rooms equivalent to them.',
-            point1: 'b. Liaise with University Management to procure more chairs to fill all lecture halls and effect anti-mobility measures like bracing to prevent students from moving them.',
+            point1: 'b. Liaise with University Management to procure more chairs to fill all lecture halls and effect anti-mobility measures like bracing to prevent students from moving them. The procurement of chairs will also include the expansion of lovers’ benches and summer huts capacities aimed at providing a resting place for students on both campuses. ',
             point2: 'c. Liaise with management and external stakeholders to procure special chairs for use at the University auditoriums to prevent the habit of depending on lecture hall chairs in organising events at the venue to bring down the pressure on them. This will also double serve as a pre-emptive maintenance measure.'
           }
         },
@@ -171,7 +152,7 @@ const Policies = () => {
             describe: `It is without doubt that the University’s flagship programme, Vocational Training, has over the years potentiated the efforts of faculty by providing on-site real and practical knowledge and skills to augment classroom work. However, there is a daunting systemic barrier in harnessing the full potential of this programme especially with regards to first years who lack enough information of either the facilities they should choose or what facilities are closer to their vicinities. A Johnson-X led administration will:`,
             subtitle: '',
             point: '• Liaise with the Vocational Training Unit of the University to partner with more facilities to provide opportunities for UHAS Students.',
-            point1: '• Liaise with the Vocational Training Unit of the University to provide a comprehensive handbook to adequately profile facilities in all 16 regions available and most recommended for students. This will also include comprehensive details of their locations and their contact details to make it easier for students’ in selecting and reaching their preferred facilities.',
+            point1: '• Liaise with the Vocational Training Unit of the University to provide a comprehensive handbook to adequately profile facilities in all 16 regions available and most recommended for students. This will also include comprehensive details of their locations and their contact details to make it easier for students in selecting and reaching their preferred facilities. This solves the systemic problem of students especially level 100s having to go through the hustle and bustle of scavenging for facilities to have their Vocational Training.',
           }
         },
         {
@@ -181,6 +162,7 @@ const Policies = () => {
             subtitle: '',
             point: '• Liaise with management to ensure the availability of projectors, teaching aids and other requisite infrastructure to make teaching and learning easier and more comfortable.',
             point1: '• Liaise with management to provide functional public address systems to facilitate effective teaching and learning. This will particularly be beneficial to very large classes.',
+            point2: '• Liaise with management to ensure the faster and timely release of End of Semester results to ease the pressure on students as well as ensure students adapt to the results and make tactical adjustments.',
           }
         }
       ],
@@ -237,9 +219,9 @@ const Policies = () => {
           description: {
             describe: ``,
             subtitle: `The right to education is a basic right every student owes an inherent claim to. However, economic situations can greatly hinder this human right declaration. It is prudent to note that the University community is made up of students from families with varying economic backgrounds. An SRC which is committed to the welfare of its members should however be committed to cushioning its members who face a threat of school dropout due to school fees payment. Thus, an enabling environment must be created to aid accessibility. A Johnson-X led administration will;`,
-            point: '• Strengthening of the SRC Scholarship Desk to scavenge and effectively publicize available scholarships as well as aiding students in applying for those scholarships. This is aimed at solving the ‘I was not aware of any scholarship’ problem which has plagued us for years.',
-            point1: '• As a long-term policy, establish a separate SRC spearheaded scholarship scheme aimed at providing a timely cushion to the above-described students. It is envisioned to be funded by the SRC through internally generated funds, corporate lobbying and any legally accepted and prudent means possible.',
-            point2: '• See to the establishment of a Students’ Loan Trust Fund Secretariat on campus to make accessibility of the state-funded academic support facility easier. This is an initiative that goes a long way to support the initial plan of the LNUGS to support students in loan acquisition.',
+            point: '• As a long-term policy, establish a separate SRC-spearheaded scholarship scheme aimed at providing a timely cushion to the above-described students. It is envisioned to be funded by the SRC through internally generated funds, corporate lobbying, and any legally accepted and prudent means possible.',
+            point1: '• Establishment of a Students’ Loan Trust Fund Secretariat on campus to make accessibility of the state-funded academic support facility easier. This is an initiative that goes a long way to support the initial plan of the LNUGS to support students in loan acquisition.',
+            point2: '• Strengthening of the SRC Scholarship Desk to scavenge and effectively publicize available scholarships as well as aiding students in applying for those scholarships. This is aimed at solving the ‘I was not aware of any scholarship’ problem which has plagued us for years.',
           }
         },
         {
@@ -260,6 +242,14 @@ const Policies = () => {
             point1: '• Advocacy for the installation of Wi-Fi at Diaspora hostels to ensure accessibility of internet to students.',
           }
         },
+        {
+          title: 'Accommodation',
+          description: {
+            describe: ``,
+            subtitle: ``,
+            point: '• A revamp of the SRC App will include a special section where the SRC will display available accommodation opportunities available to be booked, their exact location and their prices. This is to ease the stress on students going around scavenging for accommodation. ',
+          }
+        },
       ],
       title: 'Welfare Policies'
     },
@@ -275,7 +265,7 @@ const Policies = () => {
             subtitle: ``,
             point: `• Implement the SRC Panoramic Experience project aimed at providing students with an all-round experience that will contribute to their academic success and overall capacity.`,
             point1: `• Implement the SRC Trade Fair aimed at promoting student businesses and encouraging entrepreneurship. This may also include external stakeholder collaborations.`,
-            point2: `• Collaborate with the UHAS Research Club in organizing research workshops to spark students' interest in research and help them acquire the skills they need for their theses. `,
+            point2: `• Collaborate with the UHAS Research Club in organizing research workshops to spark students' interest in research and help them acquire the skills they need for their theses. This may include the implementation of an SRC Research fund in collaboration with external stakeholders to facilitate undergraduate research. `,
           }
         },
         {
@@ -284,7 +274,7 @@ const Policies = () => {
             describe: '',
             subtitle: '',
             point: `• Introduction of the SRC Soft Skills seminar which is aimed at exposing students to themes like AI in healthcare, Deep Learning techniques and Machine Learning fundamentals. As students being trained to fit into the 4th industrial revolution which places huge demand on soft skills acquisition, this prepares us for the job market.`,
-            point1: `• Organisation of critical thinking and public speaking workshops aimed at improve their cognitive and communication ability.`,
+            point1: `• Organization of critical thinking and public speaking workshops aimed at improving the cognitive and communication abilities of UHAS students.`,
           }
         },
       ],
@@ -317,7 +307,23 @@ const Policies = () => {
       ],
       title: 'Sandwish-Focused Policies'
     },
-
+    {
+      id: 11,
+      preamble: `With a keen interest in addressing dire and pertinent issues being faced by the Hohoe province, the Johnson-Mensah administration will,`,
+      categories: [
+        {
+          title: '',
+          description: {
+            describe: ``,
+            subtitle: '',
+            point: '• Liaise with management to provide workable and sustainable transportation for students in the hostels. This is to ensure efficient and cost-effective transportation to and from campus as compared to existing private transport on the Hohoe campus.',
+            point1: '• Liaise with management in the expansion of the existing summer hut and lovers’ bench facilities on campus to accommodate students during rest periods.',
+            point2: '• Provision of public address systems in the Binka Hall to ensure effective teaching and learning as well as any other programmes that will be hosted in the hall. ',
+          }
+        }
+      ],
+      title: 'Hohoe In Focus'
+    },
   ]
 
   return (

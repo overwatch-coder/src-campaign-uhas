@@ -1,5 +1,5 @@
 import React from 'react'
-import volunteer_group_img from '../../assets/volunteer-group.png'
+import { gallery33 } from '@/assets'
 import Image from 'next/image'
 
 const WhyVolunteer = () => {
@@ -27,7 +27,7 @@ const WhyVolunteer = () => {
       
       <Image 
         data-aos="fade-left"
-        src={volunteer_group_img}
+        src={gallery33}
         alt='Volunteering group picture'
         width={500}
         height={500}

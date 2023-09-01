@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import achievementBg from '../../assets/achievement.png'
+import { gallery12, gallery18 } from '@/assets'
 import AchievementCard from './AchievementCard'
 
 const Achievements = () => {
@@ -8,38 +8,44 @@ const Achievements = () => {
     <section
         className='px-10 pt-10 bg-bg-primary overflow-hidden'
     >
-        <div className='flex flex-col max-w-3xl mx-auto space-y-3 text-center'>
+        <div className='flex flex-col max-w-3xl mx-auto text-center'>
             <h2 className='text-3xl font-semibold text-blue-main font- md:text-4xl'>Achievements</h2>
             <p className='text-black/70 text-sm tracking-wide leading-[1.6]'>Throughout his academic journey, John has actively engaged in various extracurricular activities and demonstrated a strong track record of accomplishments.</p>
         </div>
 
         <div 
-            className='flex flex-col mt-10 space-y-5 lg:space-y-0 lg:space-x-10 lg:flex-row lg:justify-between'
+            className='flex flex-col mt-3 md:mt-0 space-y-5 lg:space-y-0 lg:space-x-10 lg:flex-row lg:justify-between'
         >
             <Image 
-                src={achievementBg}
+                src={gallery18}
                 alt='Achievement image'
                 width={500}
-                height={500}
-                className='object-cover w-full md:h-[500px] lg:h-full'
+                className=' object-contain w-full md:w-[500px] lg:w-[700px] md:h-[400px] lg:h-[700px]'
             />
 
             <div className='flex flex-col justify-center pt-10 space-y-5 md:pt-0'>
-
                 <AchievementCard 
-                    title='Sustainability Campaign Coordinator'
-                    description='Coordinated a campus-wide sustainability campaign, resulting in a significant reduction of waste and increased awareness of eco-friendly practices.'
+                    title='Champion'
+                    description='SRC Volleyball Championship 2018'
                 />
 
                 <AchievementCard 
-                    title='Community Service Advocate'
-                    description='Led a volunteer team in organizing a series of community service projects, benefiting local organizations and making a positive impact in the surrounding community.'
+                    title='Champion'
+                    description='Kumasi Debate Championship 2022'
                 />
 
                 <AchievementCard 
-                    title='Debate Club Leadership'
-                    description='Demonstrated leadership as the president of the Debate Club, fostering critical thinking and communication skills among students.'
+                    title='Champion'
+                    description='Summer Wars Debate Championship 2021'
+                  />
+                <AchievementCard 
+                    title='Grande Final Best Speaker'
+                    description='Pre- Word War Invitational Championship 2022'
                   />  
+                <AchievementCard 
+                    title='2nd Runner Up'
+                    description='Patient Counselling Competition 2021'
+                  /> 
             </div>
         </div>
     </section>

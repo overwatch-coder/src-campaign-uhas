@@ -30,6 +30,12 @@ import gallery29 from './gallery29.jpeg'
 import gallery3 from './gallery3.jpeg'
 import gallery30 from './gallery30.jpeg'
 import gallery31 from './gallery31.jpeg'
+import gallery32 from './gallery32.jpeg'
+import gallery33 from './gallery33.jpeg'
+import gallery34 from './gallery34.jpeg'
+import gallery35 from './gallery35.jpeg'
+import gallery36 from './gallery36.jpeg'
+import gallery37 from './gallery37.jpeg'
 import gallery4 from './gallery4.jpeg'
 import gallery5 from './gallery5.jpeg'
 import gallery6 from './gallery6.jpeg'
@@ -69,6 +75,12 @@ export {
     gallery29,
     gallery30,
     gallery31,
+    gallery32,
+    gallery33,
+    gallery34,
+    gallery35,
+    gallery36,
+    gallery37,
     gallery3,
     gallery4,
     gallery5,

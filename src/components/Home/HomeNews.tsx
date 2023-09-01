@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdRssFeed } from 'react-icons/md'
 import { TfiAnnouncement } from 'react-icons/tfi'
-import { vaMidzo, vaMidzo1, vaMidzo2, vaMidzo3, vaMidzo4 } from '@/assets'
+import { vaMidzo, vaMidzo1, vaMidzo2, gallery32, gallery36, vaMidzo3, vaMidzo4, gallery37 } from '@/assets'
 
 import HomeNewsCard from './HomeNewsCard'
 import AnnoncementCard from './AnnoncementCard'
@@ -10,6 +10,39 @@ const HomeNews = async (): Promise<any>  => {
     const news: NewsType[] = [
         {
             id: 1,
+            images: gallery32,
+            description: "#vaMidzo",
+            title: "#Hope#Change#Action",
+            category:  {
+                id:  1,
+                name: "#vaMidzo", 
+                image: gallery32,
+            } 
+        },
+        {
+            id: 2,
+            images: gallery36,
+            description: "#vaMidzo",
+            title: "Security Tips",
+            category:  {
+                id:  1,
+                name: "#vaMidzo", 
+                image: gallery36,
+            } 
+        },
+        {
+            id: 3,
+            images: gallery37,
+            description: "#vaMidzo",
+            title: "Intent Declaration",
+            category:  {
+                id:  1,
+                name: "#vaMidzo", 
+                image: gallery37,
+            } 
+        },
+        {
+            id: 4,
             images: vaMidzo,
             description: "#vaMidzo",
             title: "Action",
@@ -20,7 +53,7 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
         {
-            id: 2,
+            id: 5,
             images: vaMidzo1,
             description: "#vaMidzo",
             title: "Change",
@@ -31,7 +64,7 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
        {
-            id: 3,
+            id: 6,
             images: vaMidzo3,
             description: "#vaMidzo",
             title: "Hope, Change, Action",
@@ -42,7 +75,7 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
        {
-            id: 4,
+            id: 7,
             images: vaMidzo4,
             description: "#vaMidzo",
             title: "Action",
