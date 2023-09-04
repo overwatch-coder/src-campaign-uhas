@@ -1,5 +1,6 @@
 'use client'
 import { FetchNews } from '@/app/utils';
+import { gallery32, gallery36, gallery37, vaMidzo, vaMidzo1, vaMidzo3, vaMidzo4 } from '@/assets';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation'
@@ -7,100 +8,134 @@ import React, {useEffect, useState} from 'react'
 import ContentLoader from 'react-content-loader'
 
 const NewsDetails = () => {
-    // const {id} = useParams();
-    const [news, setNews] = useState<NewsType>({
-      id: 0,
-      images: [],
-      // price: 0,
-      description: "",
-      title: "",
-      category: {
-        id: 0,
-        name: "",
-        image: "",
-        // creationAt: "",
-        // updatedAt: ""
-      },
-      // creationAt: "",
-      // updatedAt: "",
-    });
-    
-    const [allNews, setAllNews] = useState<NewsType[]>([]);
-    const [isLoading, setIsLoading] = useState(false);
+  const { id }: any = useParams();
+const news = new Map<number, NewsType>([
+    [1, {
+        id: 1,
+        images: gallery32,
+        description: "#vaMidzo",
+        title: "#Hope#Change#Action",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: gallery32,
+        }
+    }],
+    [2, {
+        id: 2,
+        images: gallery36,
+        description: "#vaMidzo",
+        title: "Security Tips",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: gallery36,
+        }
+    }],
+    [3, {
+        id: 3,
+        images: gallery37,
+        description: "#vaMidzo",
+        title: "Intent Declaration",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: gallery37,
+        }
+    }],
+    [4, {
+        id: 4,
+        images: vaMidzo,
+        description: "#vaMidzo",
+        title: "Action",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: vaMidzo,
+        }
+    }],
+    [5, {
+        id: 5,
+        images: vaMidzo1,
+        description: "#vaMidzo",
+        title: "Change",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: vaMidzo1,
+        }
+    }],
+    [6, {
+        id: 6,
+        images: vaMidzo3,
+        description: "#vaMidzo",
+        title: "Hope, Change, Action",
+        category: {
+            id: 1,
+            name: "vaMidzo",
+            image: vaMidzo3,
+        }
+    }],
+    [7, {
+        id: 7,
+        images: vaMidzo4,
+        description: "#vaMidzo",
+        title: "Action",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: vaMidzo4,
+        }
+    }]
+]);
 
-    useEffect(() => {
-      if(typeof document !== 'undefined'){
-        document.title = news.title
-      }
+  const newsItem = id && typeof id === 'string' && news.has(parseInt(id))
+    ? news.get(parseInt(id))
+    : null;
 
-      const fetchSingleNews = async () => {
-        setIsLoading(true);
-        // const data: NewsType = await FetchNews(`https://api.escuelajs.co/api/v1/products`, parseInt(id));
-        // setNews(data);
-        setIsLoading(false);
-      }
-
-      const fetchAllNews = async () => {
-        const data: NewsType[] = await FetchNews('https://api.escuelajs.co/api/v1/products');
-        setAllNews(data);
-      }
-
-      fetchSingleNews();
-      fetchAllNews();
-    }, [
-      // id,
-      news.title])
-
-    const remainingNews = allNews?.filter(item => item.id !== news?.id);
+    const remainingNews = news
 
   return (
     <>
       <div className='px-10 pt-20 pb-16 bg-bg-primary'>
-        {isLoading ? 
-        <ContentLoader /> 
-        : 
-        <section className='flex flex-col space-y-5 md:flex-row md:space-y-0 md:justify-between md:space-x-10'>
-          {/* Detailed News */}
-          <div className='flex flex-col flex-1 space-y-7'>
-            <div className='flex flex-col space-y-4'>
-              <h2 className='text-xl font-semibold md:text-3xl'>{news.title}</h2>
-              {/* <p className='text-black/70'>Published : {news.creationAt.split('T')[0]}</p> */}
+        <div className='flex items-center mx-auto space-x-2 text-center'>
+                <Link href={'/'} className='text-yellow-600 underline hover:text-yellow-800'>Home</Link>
             </div>
-            <Image 
-              src={`https://picsum.photos/640/640?r=${Math.floor(Math.random() * 1000) + 1})`}
-              alt={news?.title}
-              width={500}
-              height={500}
-              className='w-full h-[400px] object-cover'
-            />
+        {newsItem && (
+          <section className='flex flex-col space-y-5 md:flex-row md:space-y-0 md:justify-between md:space-x-10'>
+            {/* Detailed News */}
+            <div className='flex flex-col flex-1 space-y-7'>
+              <div className='flex flex-col space-y-4'>
+                <h2 className='text-xl font-semibold md:text-3xl'>{newsItem.title}</h2>
+              </div>
+              <Image
+                src={newsItem.images}
+                alt={newsItem.title}
+                width={500}
+                height={500}
+                className='w-full h-[500px] md:h-[700px] object-contain'
+              />
 
-            <p>{news?.description}</p>
-            <Image 
-              src={`https://picsum.photos/640/640?r=${Math.floor(Math.random() * 1000) + 1})`}
-              alt={news?.title}
-              width={500}
-              height={500}
-              className='w-full h-[400px] object-cover'
-            />
-          </div>
+              <p>{newsItem.description}</p>
+            </div>
 
-          {/* More News */}
-          <div className='w-full md:w-[300px] flex flex-col space-y-5'>
-            <h2 className='text-xl font-medium text-black underline md:text-2xl'>More News</h2>
-            {remainingNews.slice(0,10).map((item, index) => (
-              <section key={index} data-aos="zoom-in" className='flex items-center w-full px-5 py-2 space-x-4 bg-white rounded shadow'>
-                <div className='flex flex-col space-x-1 cursor-pointer'>
-                    <Link className='font-medium text-blue-main hover:text-yellow-700 text-yellow-600' href={`/news/${item.id}`}>
-                        {item.title}
+            {/* More News */}
+            <div className='w-full md:w-[300px] flex flex-col space-y-5'>
+              <h2 className='text-xl font-medium text-black underline md:text-2xl'>More News</h2>
+              {Array.from(remainingNews.values()).filter(item => item.id !== newsItem.id).slice(0, 10).map((item, index) => (
+                <section key={index} data-aos="zoom-in" className='flex items-center w-full px-5 py-2 space-x-4 bg-white rounded shadow'>
+                  <div className='flex flex-col space-x-1 cursor-pointer'>
+                    <Link className='font-medium hover:text-yellow-700 text-yellow-600' href={`/news/${item.id}`}>
+                      {item.title}
                     </Link>
-                    <p className='text-xs text-black/60'>{item.description.slice(0,50)}...</p>
-                </div>
-              </section>
-            ))}
-          </div>
-        </section>
-        }
-      </div>
+                    <p className='text-xs text-black/60'>{item.description.slice(0, 50)}...</p>
+                  </div>
+                </section>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>  
     </>
   )
 }

@@ -58,7 +58,7 @@ const HomeNews = async (): Promise<any>  => {
             description: "#vaMidzo",
             title: "Change",
             category:  {
-                id:  2,
+                id:  1,
                 name: "#vaMidzo", 
                 image: vaMidzo1,
             } 
@@ -69,7 +69,7 @@ const HomeNews = async (): Promise<any>  => {
             description: "#vaMidzo",
             title: "Hope, Change, Action",
             category:  {
-                id:  3,
+                id:  1,
                 name: "vaMidzo", 
                 image: vaMidzo3,
             } 
@@ -80,7 +80,7 @@ const HomeNews = async (): Promise<any>  => {
             description: "#vaMidzo",
             title: "Action",
             category:  {
-                id:  4,
+                id:  1,
                 name: "#vaMidzo", 
                 image: vaMidzo4,
             } 

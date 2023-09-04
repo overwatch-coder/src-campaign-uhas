@@ -53,7 +53,7 @@ const Policies = () => {
           title: '',
           description: {
             subtitle: 'Sports and Recreation',
-            describe: `In every academic setting, sporting activities are a vital component. Over the last decade, various disciplines of sports have been overlooked, thereby impeding on our successes at external competitions and retarding the development of talents of junior members in such disciplines. The Johnson-X led administration will:`,
+            describe: `In every academic setting, sporting activities are a vital component. Over the last decade, various disciplines of sports have been overlooked, thereby impeding on our successes at external competitions and retarding the development of talents of junior members in such disciplines. The Johnson-Mensah led administration will:`,
             point: '• Liaise with management to prioritise the commenced sporting centre project',
             point1: '• Engage the sports Directorate on the possible introduction of more sports',
             point2: '• Advocate for sportsmen and women to be given exemptions from academic work when competitions clash with academic activity.'
@@ -149,7 +149,7 @@ const Policies = () => {
         {
           title: 'Vocational Training Enlightenment And Accessibility',
           description: {
-            describe: `It is without doubt that the University’s flagship programme, Vocational Training, has over the years potentiated the efforts of faculty by providing on-site real and practical knowledge and skills to augment classroom work. However, there is a daunting systemic barrier in harnessing the full potential of this programme especially with regards to first years who lack enough information of either the facilities they should choose or what facilities are closer to their vicinities. A Johnson-X led administration will:`,
+            describe: `It is without doubt that the University’s flagship programme, Vocational Training, has over the years potentiated the efforts of faculty by providing on-site real and practical knowledge and skills to augment classroom work. However, there is a daunting systemic barrier in harnessing the full potential of this programme especially with regards to first years who lack enough information of either the facilities they should choose or what facilities are closer to their vicinities. A Johnson-Mensah led administration will:`,
             subtitle: '',
             point: '• Liaise with the Vocational Training Unit of the University to partner with more facilities to provide opportunities for UHAS Students.',
             point1: '• Liaise with the Vocational Training Unit of the University to provide a comprehensive handbook to adequately profile facilities in all 16 regions available and most recommended for students. This will also include comprehensive details of their locations and their contact details to make it easier for students in selecting and reaching their preferred facilities. This solves the systemic problem of students especially level 100s having to go through the hustle and bustle of scavenging for facilities to have their Vocational Training.',
