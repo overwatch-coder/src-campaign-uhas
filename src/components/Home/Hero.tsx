@@ -35,7 +35,7 @@ const Hero = () => {
 
             <p className='text-xl font-medium hover:text-yellow-700 text-yellow-600'>Your Future SRC President</p>
 
-            <div className='flex items-center space-x-3'>
+            <div className='flex items-center space-x-3 pb-10'>
                 <Button 
                     path="/volunteer" 
                     text='Volunteer'
@@ -55,7 +55,7 @@ const Hero = () => {
             src={heroImg}
             width={500}
             alt='Hero Image'
-            className='pt-10 md:pt-16 object-cover object-top md:w-[400px] h-[500px] md:h-[500px] mx-auto w-fit'
+            className='pt-10 md:pt-16 object-cover object-top md:w-[400px] h-[300px] md:h-[500px] mx-auto w-[240px]'
         />
     </section>
   )
