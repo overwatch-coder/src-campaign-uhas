@@ -30,6 +30,9 @@ const Hero = () => {
                 Johnson Eziel <br className='hidden lg:block' />Weitzmann
             </h1>
             
+        
+
+
             <p className='text-xl font-medium hover:text-yellow-700 text-yellow-600'>Your Future SRC President</p>
 
             <div className='flex items-center space-x-3'>
