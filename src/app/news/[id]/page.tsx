@@ -1,6 +1,6 @@
 'use client'
 import { FetchNews } from '@/app/utils';
-import { gallery32, gallery36, gallery37, vaMidzo, vaMidzo1, vaMidzo3, vaMidzo4 } from '@/assets';
+import { gallery32, gallery36, gallery37, vaMidzo, vaMidzo1, vaMidzo3, vaMidzo4, vice } from '@/assets';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation'
@@ -12,6 +12,27 @@ const NewsDetails = () => {
 const news = new Map<number, NewsType>([
     [1, {
         id: 1,
+        images: vice,
+        description: `As Assistant Class Rep and Assistant Secretary for
+the Physiotherapy Students Association, UHAS,I
+have witnessed the challenges we faced on our
+educational journey.
+Now, in my 3rd year, I'm declaring my intent to be
+the next SRC Vice President. With my passion,
+your support and prayers, we will embark on this
+journey together, turning our aspirations into
+reality Let's breathe life into our dreams, ignite
+transformation, and forge a brighter future.
+#VaMidzo #Hope #Change #Action`,
+        title: "#Hope#Change#Action",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: vice,
+        }
+    }],
+  [2, {
+        id: 2,
         images: gallery32,
         description: "#vaMidzo",
         title: "#Hope#Change#Action",
@@ -21,8 +42,8 @@ const news = new Map<number, NewsType>([
             image: gallery32,
         }
     }],
-    [2, {
-        id: 2,
+    [3, {
+        id: 3,
         images: gallery36,
         description: "#vaMidzo",
         title: "Security Tips",
@@ -32,10 +53,32 @@ const news = new Map<number, NewsType>([
             image: gallery36,
         }
     }],
-    [3, {
-        id: 3,
+    [4, {
+        id: 4,
         images: gallery37,
-        description: "#vaMidzo",
+        description: `During my first year as Class Secretary, we were promised
+a change in the system by a group of people who provided
+us with past questions to vote for them. However, we lived
+our 2nd year in complete disappointment paying for our
+naivety.
+In my third year as UHAS Debate Sociely Vice President, I
+witnessed the student body being neglected when it came
+to engagement and extracurricular activities. Then, as
+Chief Justice in my fourth year, I closely observed the sys-
+tems in place and understood firsthand the reasons
+behind the ongoing struggles faced by the student body.
+My name is Weitzmann Eziel Johnson, a 5th-year Doctor of
+Pharmacy student, and 1 am officially declaring my intent to
+run for the position of FEDERAL SRC PRESIDENT. Like
+many students of this university, I am tired ofthe
+continuous failed and dormant promises of student
+leaders to do things right which is why for us, VaMiDzo is a
+call for people who are tired of the illusion of HOPE, who
+believe that CHANGE must come now, and that the time
+has come to take ACTION.
+Join this revolution with your support, your action and your
+prayers. Together let us revive hope, call for
+change, demonstrate Action.`,
         title: "Intent Declaration",
         category: {
             id: 1,
@@ -43,8 +86,8 @@ const news = new Map<number, NewsType>([
             image: gallery37,
         }
     }],
-    [4, {
-        id: 4,
+    [5, {
+        id: 5,
         images: vaMidzo,
         description: "#vaMidzo",
         title: "Action",
@@ -54,8 +97,8 @@ const news = new Map<number, NewsType>([
             image: vaMidzo,
         }
     }],
-    [5, {
-        id: 5,
+    [6, {
+        id: 6,
         images: vaMidzo1,
         description: "#vaMidzo",
         title: "Change",
@@ -65,8 +108,8 @@ const news = new Map<number, NewsType>([
             image: vaMidzo1,
         }
     }],
-    [6, {
-        id: 6,
+    [7, {
+        id: 7,
         images: vaMidzo3,
         description: "#vaMidzo",
         title: "Hope, Change, Action",
@@ -76,8 +119,8 @@ const news = new Map<number, NewsType>([
             image: vaMidzo3,
         }
     }],
-    [7, {
-        id: 7,
+    [8, {
+        id: 8,
         images: vaMidzo4,
         description: "#vaMidzo",
         title: "Action",

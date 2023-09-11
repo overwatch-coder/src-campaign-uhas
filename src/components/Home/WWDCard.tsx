@@ -10,7 +10,7 @@ type WWDCardProps = {
 
 const WWDCard = ({title, excerpt, path, img}: WWDCardProps) => {
   return (
-    <div className='flex flex-col p-10 space-y-5 text-black bg-white rounded-md shadow-md'>
+    <div className='flex flex-col p-10 space-y-5 text-black bg-white rounded-2xl shadow-md'>
         <div className='flex items-center space-x-3'>
             <Image 
                 alt={title}

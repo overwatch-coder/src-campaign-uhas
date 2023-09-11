@@ -44,7 +44,7 @@ const ContactUsHome = () => {
                     type="text" 
                     name='name' 
                     placeholder='your name' 
-                    className='w-full px-4 py-3 bg-transparent border-[1px] focus:border-2 outline-none border-black/70 rounded'
+                    className='w-full px-4 py-3 bg-transparent border-[1px] focus:border-2 outline-none border-black/70 rounded-2xl'
                     required={true}
                 />
             </div>
@@ -55,7 +55,7 @@ const ContactUsHome = () => {
                     type="email" 
                     name='email' 
                     placeholder='your email' 
-                    className='w-full px-4 py-3 bg-transparent border-[1px] focus:border-2 outline-none border-black/70 rounded'
+                    className='w-full px-4 py-3 bg-transparent border-[1px] focus:border-2 outline-none border-black/70 rounded-2xl'
                     required={true}
                 />
             </div>
@@ -65,7 +65,7 @@ const ContactUsHome = () => {
                 <textarea 
                     name="comment"
                     placeholder='your comment/question'
-                    className='w-full px-4 py-3 bg-transparent border-[1px] focus:border-2 outline-none border-black/70 rounded'
+                    className='w-full px-4 py-3 bg-transparent border-[1px] focus:border-2 outline-none border-black/70 rounded-2xl'
                     rows={10}
                     required={true}
                 ></textarea>

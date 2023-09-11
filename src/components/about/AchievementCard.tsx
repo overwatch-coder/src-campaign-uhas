@@ -8,7 +8,7 @@ type AchievementCardProps = {
 
 const AchievementCard = ({title, description}: AchievementCardProps) => {
   return (
-    <div className='p-4 bg-white rounded shadow-md border-l-[10px] border-l-primary space-y-2 h-fit'>
+    <div className='p-4 bg-white rounded-xl shadow-md border-l-[10px] border-l-primary space-y-2 h-fit'>
       <h2 className='font-medium uppercase md:text-xl text-primary'>{title}</h2>
       {description.point ? 
         <div>

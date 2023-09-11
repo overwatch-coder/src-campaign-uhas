@@ -12,7 +12,7 @@ const Profile = () => {
         <Image 
             src={aboutProfileImage}
             alt='profile picture - about us page'
-            className='object-contain w-[500px] md:w-full md:h-[500px] mx-auto'
+            className='object-cover object-top w-[500px] md:w-full md:h-[500px] mx-auto rounded-2xl'
         />
 
         <div className='flex flex-col items-center pt-10 space-y-3 md:max-w-2xl md:items-start md:pt-0 md:place-items-center'>

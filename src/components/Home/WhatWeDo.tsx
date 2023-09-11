@@ -36,7 +36,7 @@ const WhatWeDo = () => {
             
             <WWDCard 
                 title='About Us'
-                excerpt="The mission of John's campaign is to empower students and build a strong sense of community. They envision a student council that actively listens to students' concerns, advocates for their rights, and "
+                excerpt="The mission of Johnson's campaign is to empower students and build a strong sense of community. They envision a student council that actively listens to students' concerns, advocates for their rights, and "
                 path='/about'
                 img={abouticon}
             />

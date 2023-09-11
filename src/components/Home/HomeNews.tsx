@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdRssFeed } from 'react-icons/md'
 import { TfiAnnouncement } from 'react-icons/tfi'
-import { vaMidzo, vaMidzo1, vaMidzo2, gallery32, gallery36, vaMidzo3, vaMidzo4, gallery37 } from '@/assets'
+import { vaMidzo, vaMidzo1, vaMidzo2, gallery32, gallery36, vaMidzo3, vaMidzo4, gallery37, vice } from '@/assets'
 
 import HomeNewsCard from './HomeNewsCard'
 import AnnoncementCard from './AnnoncementCard'
@@ -10,6 +10,27 @@ const HomeNews = async (): Promise<any>  => {
     const news: NewsType[] = [
         {
             id: 1,
+            images: vice,
+            description: `As Assistant Class Rep and Assistant Secretary for
+the Physiotherapy Students Association, UHAS,I
+have witnessed the challenges we faced on our
+educational journey.
+Now, in my 3rd year, I'm declaring my intent to be
+the next SRC Vice President. With my passion,
+your support and prayers, we will embark on this
+journey together, turning our aspirations into
+reality Let's breathe life into our dreams, ignite
+transformation, and forge a brighter future.
+#VaMidzo #Hope #Change #Action`,
+            title: "#Hope#Change#Action",
+            category:  {
+                id:  1,
+                name: "#vaMidzo", 
+                image: vice,
+            } 
+        },
+        {
+            id: 2,
             images: gallery32,
             description: "#vaMidzo",
             title: "#Hope#Change#Action",
@@ -20,7 +41,7 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
         {
-            id: 2,
+            id: 3,
             images: gallery36,
             description: "#vaMidzo",
             title: "Security Tips",
@@ -31,18 +52,40 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
         {
-            id: 3,
+            id: 4,
             images: gallery37,
             description: "#vaMidzo",
             title: "Intent Declaration",
             category:  {
                 id:  1,
-                name: "#vaMidzo", 
+                name: `During my first year as Class Secretary, we were promised
+a change in the system by a group of people who provided
+us with past questions to vote for them. However, we lived
+our 2nd year in complete disappointment paying for our
+naivety.
+In my third year as UHAS Debate Sociely Vice President, I
+witnessed the student body being neglected when it came
+to engagement and extracurricular activities. Then, as
+Chief Justice in my fourth year, I closely observed the sys-
+tems in place and understood firsthand the reasons
+behind the ongoing struggles faced by the student body.
+My name is Weitzmann Eziel Johnson, a 5th-year Doctor of
+Pharmacy student, and 1 am officially declaring my intent to
+run for the position of FEDERAL SRC PRESIDENT. Like
+many students of this university, I am tired ofthe
+continuous failed and dormant promises of student
+leaders to do things right which is why for us, VaMiDzo is a
+call for people who are tired of the illusion of HOPE, who
+believe that CHANGE must come now, and that the time
+has come to take ACTION.
+Join this revolution with your support, your action and your
+prayers. Together let us revive hope, call for
+change, demonstrate Action.`, 
                 image: gallery37,
             } 
         },
         {
-            id: 4,
+            id: 5,
             images: vaMidzo,
             description: "#vaMidzo",
             title: "Action",
@@ -53,7 +96,7 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
         {
-            id: 5,
+            id: 6,
             images: vaMidzo1,
             description: "#vaMidzo",
             title: "Change",
@@ -64,7 +107,7 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
        {
-            id: 6,
+            id: 7,
             images: vaMidzo3,
             description: "#vaMidzo",
             title: "Hope, Change, Action",
@@ -75,7 +118,7 @@ const HomeNews = async (): Promise<any>  => {
             } 
         },
        {
-            id: 7,
+            id: 8,
             images: vaMidzo4,
             description: "#vaMidzo",
             title: "Action",

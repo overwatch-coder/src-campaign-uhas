@@ -6,7 +6,7 @@ const PersonalInformation = () => {
         className='flex flex-col w-full px-10 pt-8 pb-16 space-y-5 lg:mx-auto lg:px-24 bg-bg-primary overflow-hidden'
     >
         <h2 className='text-3xl font-semibold text-blue-main lg:mx-auto lg:text-4xl lg:max-w-3xl'>Personal Background</h2>
-      <div className='p-4 w-full lg:w-3/4  bg-white mx-auto rounded shadow-md border-l-[10px] border-l-primary space-y-7'>
+      <div className='p-4 w-full lg:w-3/4  bg-white mx-auto rounded-xl shadow-md border-l-[10px] border-l-primary space-y-7'>
         
         <div className='flex justify-between flex-wrap'>
           <h2 className='font-medium md:text-xl text-primary'>Programme of Study:</h2>
@@ -16,7 +16,7 @@ const PersonalInformation = () => {
         </div>
         
       </div>
-      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded shadow-md border-l-[10px] border-l-primary space-y-7'>
+      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded-xl shadow-md border-l-[10px] border-l-primary space-y-7'>
         <div className='flex justify-between flex-wrap'>
           <h2 className='font-medium md:text-xl text-primary'>Level: </h2>
           <div>
@@ -24,7 +24,7 @@ const PersonalInformation = () => {
           </div>
         </div>
       </div> 
-      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded shadow-md border-l-[10px] border-l-primary space-y-7'>
+      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded-xl shadow-md border-l-[10px] border-l-primary space-y-7'>
         <div className='flex justify-between flex-wrap'>
           <h2 className='font-medium md:text-xl text-primary'>Alma Mater:</h2>
           <div className='text-right'>
@@ -35,7 +35,7 @@ const PersonalInformation = () => {
           </div>  
         </div>
       </div>
-      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded shadow-md border-l-[10px] border-l-primary space-y-7'>
+      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded-xl shadow-md border-l-[10px] border-l-primary space-y-7'>
         <div className='flex justify-between flex-wrap'>
           <h2 className='font-medium md:text-xl text-primary'>Hometown:</h2>
           <div>
@@ -43,7 +43,7 @@ const PersonalInformation = () => {
           </div>  
         </div>
       </div>
-      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded shadow-md border-l-[10px] border-l-primary space-y-7'>
+      <div className='p-4 w-full lg:w-3/4 bg-white mx-auto rounded-xl shadow-md border-l-[10px] border-l-primary space-y-7'>
         <div className='flex justify-between flex-wrap'>
           <h2 className='font-medium md:text-xl text-primary'>Residence:</h2>
           <div>

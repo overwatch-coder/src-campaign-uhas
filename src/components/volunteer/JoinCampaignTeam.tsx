@@ -2,20 +2,20 @@ import React from 'react'
 
 const JoinCampaignTeam = () => {
   return (
-    <section className='grid grid-cols-1 px-10 pt-10 pb-16 md:grid-cols-2 overflow-hidden'>
+    <section className='grid grid-cols-1 px-6 pt-10 pb-16 md:grid-cols-2 overflow-hidden'>
       <div className='flex flex-col space-y-5'>
         <h3 className='text-xl font-semibold hover:text-yellow-700 text-yellow-600 font- md:text-2xl'>Join The Campaign Team</h3>
-        <p className='text-sm text-black/70 md:text-base'>Joining our campaign team as a volunteer is easy! Simply fill out our volunteer application form, and we will get in touch with you shortly. Whether you have a specific skill set or are eager to learn, there are various roles and tasks available to match your interests and availability.</p>
-        <p className='font-medium'>Together, we can make a real difference!</p>
+        <p className='text-sm text-black/70 md:text-base lg:m-10'>Joining our campaign team as a volunteer is easy! Simply fill out our volunteer application form, and we will get in touch with you shortly. Whether you have a specific skill set or are eager to learn, there are various roles and tasks available to match your interests and availability.</p>
+        <p className='font-medium lg:m-10'>Together, we can make a real difference!</p>
       </div>
 
-      <form className='w-full py-5 space-y-6 bg-blue-main px-7 mt-7'>
+      <form className='w-full py-5 space-y-6 bg-blue-main px-7 mt-7 rounded-xl'>
         <div className='flex flex-col space-y-4'>
           <label htmlFor="name" className='text-white'>Name</label>
           <input 
             type="text" 
             placeholder='your full name' 
-            className='w-full px-4 py-2 bg-white rounded outline-none placeholder:text-black'
+            className='w-full px-4 py-2 bg-white rounded-xl outline-none placeholder:text-black'
             required={true}
             name='name'
           />
@@ -26,7 +26,7 @@ const JoinCampaignTeam = () => {
           <input 
             type="email" 
             placeholder='your email address' 
-            className='w-full px-4 py-2 bg-white rounded outline-none placeholder:text-black'
+            className='w-full px-4 py-2 bg-white rounded-xl outline-none placeholder:text-black'
             required={true}
             name='email'
           />
@@ -37,7 +37,7 @@ const JoinCampaignTeam = () => {
           <input 
             type="tel" 
             placeholder='your phone number' 
-            className='w-full px-4 py-2 bg-white rounded outline-none placeholder:text-black'
+            className='w-full px-4 py-2 bg-white rounded-xl outline-none placeholder:text-black'
             required={true}
             name='phone'
           />
@@ -90,7 +90,7 @@ const JoinCampaignTeam = () => {
             <label htmlFor="events" className='text-white/60'>Events</label>
           </div>
         </div>
-        <button className='w-full px-4 py-3 text-center text-white uppercase rounded bg-yellow-600 hover:bg-yellow-700'>I am In</button>
+        <button className='w-full px-4 py-3 text-center text-white uppercase rounded-xl bg-yellow-600 hover:bg-yellow-700'>I am In</button>
       </form>
     </section>
   )

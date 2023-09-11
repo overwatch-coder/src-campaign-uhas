@@ -42,6 +42,9 @@ import gallery6 from './gallery6.jpeg'
 import gallery7 from './gallery7.jpeg'
 import gallery8 from './gallery8.jpeg'
 import gallery9 from './gallery9.jpeg'
+import uhasLogo from './uhas-logo.jpg'
+import vice from './vice.jpeg'
+import heroImg from './Layer 0.png'
 
 export {
     vaMidzo,
@@ -88,4 +91,7 @@ export {
     gallery7,
     gallery8,
     gallery9,
+    vice,
+    uhasLogo,
+    heroImg
 }

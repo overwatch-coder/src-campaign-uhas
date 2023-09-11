@@ -31,7 +31,7 @@ const WhyVolunteer = () => {
         alt='Volunteering group picture'
         width={500}
         height={500}
-        className='object-cover w-full mx-auto'
+        className='object-cover w-full mx-auto rounded-xl'
       />
     </section>
   )

@@ -140,7 +140,7 @@ const Policies = () => {
         {
           title: 'Library Advocacy',
           description: {
-            describe: `Over 8,000 people are now enrolled at the university. However, there is a significant limit to how many pupils the e-library and traditional libraries can hold. This works against the ability of students in harnessing the prospects of research as a powerful tool for higher education. To improve on accessibility, the Johnson-X led administration will:`,
+            describe: `Over 8,000 people are now enrolled at the university. However, there is a significant limit to how many pupils the e-library and traditional libraries can hold. This works against the ability of students in harnessing the prospects of research as a powerful tool for higher education. To improve on accessibility, the Johnson-Mensah led administration will:`,
             subtitle: '',
             point: 'a) Liaise with Management the University Library to make the University E-library system more appealing and accessible through frequent educational programmes to enlighten the student populace on this system.',
             point1: 'b) Advocate for a 24-hour operation of the University library during examination periods.',
@@ -218,7 +218,7 @@ const Policies = () => {
           title: 'School Fees Support',
           description: {
             describe: ``,
-            subtitle: `The right to education is a basic right every student owes an inherent claim to. However, economic situations can greatly hinder this human right declaration. It is prudent to note that the University community is made up of students from families with varying economic backgrounds. An SRC which is committed to the welfare of its members should however be committed to cushioning its members who face a threat of school dropout due to school fees payment. Thus, an enabling environment must be created to aid accessibility. A Johnson-X led administration will;`,
+            subtitle: `The right to education is a basic right every student owes an inherent claim to. However, economic situations can greatly hinder this human right declaration. It is prudent to note that the University community is made up of students from families with varying economic backgrounds. An SRC which is committed to the welfare of its members should however be committed to cushioning its members who face a threat of school dropout due to school fees payment. Thus, an enabling environment must be created to aid accessibility. A Johnson-Mensah led administration will;`,
             point: '• As a long-term policy, establish a separate SRC-spearheaded scholarship scheme aimed at providing a timely cushion to the above-described students. It is envisioned to be funded by the SRC through internally generated funds, corporate lobbying, and any legally accepted and prudent means possible.',
             point1: '• Establishment of a Students’ Loan Trust Fund Secretariat on campus to make accessibility of the state-funded academic support facility easier. This is an initiative that goes a long way to support the initial plan of the LNUGS to support students in loan acquisition.',
             point2: '• Strengthening of the SRC Scholarship Desk to scavenge and effectively publicize available scholarships as well as aiding students in applying for those scholarships. This is aimed at solving the ‘I was not aware of any scholarship’ problem which has plagued us for years.',
@@ -332,7 +332,7 @@ const Policies = () => {
     >
       {/* Policy Sidebar */}
         <aside
-            className={`bg-blue-main w-full md:w-[300px] text-white px-7 flex flex-col space-y-5 ${showPolicyCategory ? "py-7" : "md:h-fit py-3"}`}
+            className={`bg-blue-main w-full md:w-[300px] rounded-xl text-white px-7 flex flex-col space-y-5 ${showPolicyCategory ? "py-7" : "md:h-fit py-3"}`}
         >
          <button 
           onClick={() => setShowPolicyCategory(prev => !prev)}
@@ -354,7 +354,7 @@ const Policies = () => {
           <button 
             key={index}
             data-aos="fade-down"
-            className={`rounded  px-3 py-3  text-sm ${index+1 !== currentPolicy ? "bg-white text-black/80" : "bg-yellow-600 text-white"}`
+            className={`rounded-xl  px-3 py-3  text-sm ${index+1 !== currentPolicy ? "bg-white text-black/80" : "bg-yellow-600 text-white"}`
           }
           onClick={() => {setCurrentPolicy(index + 1); setShowPolicyCategory(false)}}
           >

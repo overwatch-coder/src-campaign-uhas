@@ -15,13 +15,13 @@ const MissionStatement = () => {
             <Button
                 text='Volunteer'
                 path='/volunteer'
-                classes='bg-yellow-600 hover:bg-yellow-700 rounded px-4 py-2 text-white text-center uppercase w-fit' 
+                classes='bg-yellow-600 hover:bg-yellow-700 rounded-xl px-4 py-2 text-white text-center uppercase w-fit' 
             />
 
             <Button
                 text='Donate'
                 path='/'
-                classes='bg-transparent border-2 border-black/70 hover:bg-black rounded px-2 py-2 text-black hover:text-white text-center uppercase w-fit' 
+                classes='bg-transparent border-2 border-black/70 hover:bg-black rounded-xl px-2 py-2 text-black hover:text-white text-center uppercase w-fit' 
             />
         </div>
     </section>
