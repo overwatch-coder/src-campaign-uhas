@@ -2,12 +2,12 @@ import React from 'react'
 import { heroImg } from '@/assets'
 import Image from 'next/image'
 import Button from '../Button'
-import { footprint, uhasLogo } from '@/assets'
+import { footprint } from '@/assets'
 
 const Hero = () => {
 
   return (
-    <section className='flex flex-col-reverse justify-around w-screen px-10 pb-10 space-y-1 md:items-center md:flex-row md:space-y-0 bg-bg-primary overflow-hidden'>
+    <section className='flex flex-col-reverse justify-around w-screen px-10 pt-5 space-y-1 md:items-center md:flex-row md:space-y-0 bg-bg-primary overflow-hidden'>
 
           <div data-aos="fade-right" className='flex flex-col items-center mx-auto space-y-4 md:space-y-6 md:items-start'>
             <Image 
@@ -51,9 +51,8 @@ const Hero = () => {
             data-aos="fade-left"
             src={heroImg}
             width={500}
-            height={500}
             alt='Hero Image'
-            className='pt-10 md:pt-16 object-cover object-top md:w-[400px] h-[400px] md:h-[500px] mx-auto w-fit'
+            className='pt-10 md:pt-16 object-cover object-top md:w-[400px] h-[500px] md:h-[500px] mx-auto w-fit'
         />
     </section>
   )
