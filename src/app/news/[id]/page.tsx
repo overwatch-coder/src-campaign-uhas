@@ -1,6 +1,6 @@
 'use client'
 import { FetchNews } from '@/app/utils';
-import { gallery32, gallery36, gallery37, vaMidzo, vaMidzo1, vaMidzo3, vaMidzo4, vice } from '@/assets';
+import { gallery32, gallery36, gallery37, vaMidzo, vaMidzo1, vaMidzo3, vaMidzo4, vetting, vice } from '@/assets';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams } from 'next/navigation'
@@ -9,9 +9,20 @@ import ContentLoader from 'react-content-loader'
 
 const NewsDetails = () => {
   const { id }: any = useParams();
-const news = new Map<number, NewsType>([
-    [1, {
+  const news = new Map<number, NewsType>([
+  [1, {
         id: 1,
+        images: vetting,
+        description: "We topped the vetting and the panel found us the most competent of all. ",
+        title: "#Hope#Change#Action",
+        category: {
+            id: 1,
+            name: "#vaMidzo",
+            image: vetting,
+        }
+    }],
+    [2, {
+        id: 2,
         images: vice,
         description: `As Assistant Class Rep and Assistant Secretary for
 the Physiotherapy Students Association, UHAS,I
@@ -31,8 +42,8 @@ transformation, and forge a brighter future.
             image: vice,
         }
     }],
-  [2, {
-        id: 2,
+  [3, {
+        id: 3,
         images: gallery32,
         description: "#vaMidzo",
         title: "#Hope#Change#Action",
@@ -42,8 +53,8 @@ transformation, and forge a brighter future.
             image: gallery32,
         }
     }],
-    [3, {
-        id: 3,
+    [4, {
+        id: 4,
         images: gallery36,
         description: "#vaMidzo",
         title: "Security Tips",
@@ -53,8 +64,8 @@ transformation, and forge a brighter future.
             image: gallery36,
         }
     }],
-    [4, {
-        id: 4,
+    [5, {
+        id: 5,
         images: gallery37,
         description: `During my first year as Class Secretary, we were promised
 a change in the system by a group of people who provided
@@ -86,8 +97,8 @@ change, demonstrate Action.`,
             image: gallery37,
         }
     }],
-    [5, {
-        id: 5,
+    [6, {
+        id: 6,
         images: vaMidzo,
         description: "#vaMidzo",
         title: "Action",
@@ -97,8 +108,8 @@ change, demonstrate Action.`,
             image: vaMidzo,
         }
     }],
-    [6, {
-        id: 6,
+    [7, {
+        id: 7,
         images: vaMidzo1,
         description: "#vaMidzo",
         title: "Change",
@@ -108,8 +119,8 @@ change, demonstrate Action.`,
             image: vaMidzo1,
         }
     }],
-    [7, {
-        id: 7,
+    [8, {
+        id: 8,
         images: vaMidzo3,
         description: "#vaMidzo",
         title: "Hope, Change, Action",
@@ -119,8 +130,8 @@ change, demonstrate Action.`,
             image: vaMidzo3,
         }
     }],
-    [8, {
-        id: 8,
+    [9, {
+        id: 9,
         images: vaMidzo4,
         description: "#vaMidzo",
         title: "Action",
@@ -148,18 +159,17 @@ change, demonstrate Action.`,
           <section className='flex flex-col space-y-5 md:flex-row md:space-y-0 md:justify-between md:space-x-10'>
             {/* Detailed News */}
             <div className='flex flex-col flex-1 space-y-7'>
-              <div className='flex flex-col space-y-4'>
+              <div className='flex flex-col space-y-4 mt-5'>
                 <h2 className='text-xl font-semibold md:text-3xl'>{newsItem.title}</h2>
               </div>
-              <Image
-                src={newsItem.images}
-                alt={newsItem.title}
-                width={500}
-                height={500}
-                className='w-full h-[500px] md:h-[700px] object-contain'
-              />
-
-              <p>{newsItem.description}</p>
+                <Image
+                  src={newsItem.images}
+                  alt={newsItem.title}
+                  // width={500}
+                  // height={500}
+                  className='w-full h-[500px] md:h-[700px] object-contain'
+                />
+                <p className='px-10 py-6 rounded-xl bg-white'>{newsItem.description}</p>
             </div>
 
             {/* More News */}

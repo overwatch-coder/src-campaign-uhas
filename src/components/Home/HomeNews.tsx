@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdRssFeed } from 'react-icons/md'
 import { TfiAnnouncement } from 'react-icons/tfi'
-import { vaMidzo, vaMidzo1, vaMidzo2, gallery32, gallery36, vaMidzo3, vaMidzo4, gallery37, vice } from '@/assets'
+import { vaMidzo, vaMidzo1, vaMidzo2, gallery32, gallery36, vaMidzo3, vaMidzo4, gallery37, vice, vetting } from '@/assets'
 
 import HomeNewsCard from './HomeNewsCard'
 import AnnoncementCard from './AnnoncementCard'
@@ -10,6 +10,17 @@ const HomeNews = async (): Promise<any>  => {
     const news: NewsType[] = [
         {
             id: 1,
+            images: vetting,
+            description: "We topped the vetting and the panel found us the most competent of all. ",
+            title: "#Hope#Change#Action",
+            category:  {
+                id:  1,
+                name: "#vaMidzo", 
+                image: vetting,
+            } 
+        },
+        {
+            id: 2,
             images: vice,
             description: `As Assistant Class Rep and Assistant Secretary for
 the Physiotherapy Students Association, UHAS,I
@@ -30,7 +41,7 @@ transformation, and forge a brighter future.
             } 
         },
         {
-            id: 2,
+            id: 3,
             images: gallery32,
             description: "#vaMidzo",
             title: "#Hope#Change#Action",
@@ -41,7 +52,7 @@ transformation, and forge a brighter future.
             } 
         },
         {
-            id: 3,
+            id: 4,
             images: gallery36,
             description: "#vaMidzo",
             title: "Security Tips",
@@ -52,7 +63,7 @@ transformation, and forge a brighter future.
             } 
         },
         {
-            id: 4,
+            id: 5,
             images: gallery37,
             description: "#vaMidzo",
             title: "Intent Declaration",
@@ -85,7 +96,7 @@ change, demonstrate Action.`,
             } 
         },
         {
-            id: 5,
+            id: 6,
             images: vaMidzo,
             description: "#vaMidzo",
             title: "Action",
@@ -96,7 +107,7 @@ change, demonstrate Action.`,
             } 
         },
         {
-            id: 6,
+            id: 7,
             images: vaMidzo1,
             description: "#vaMidzo",
             title: "Change",
@@ -107,7 +118,7 @@ change, demonstrate Action.`,
             } 
         },
        {
-            id: 7,
+            id: 8,
             images: vaMidzo3,
             description: "#vaMidzo",
             title: "Hope, Change, Action",
@@ -118,7 +129,7 @@ change, demonstrate Action.`,
             } 
         },
        {
-            id: 8,
+            id: 9,
             images: vaMidzo4,
             description: "#vaMidzo",
             title: "Action",

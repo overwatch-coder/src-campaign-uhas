@@ -7,16 +7,16 @@ import { footprint } from '@/assets'
 const Hero = () => {
 
   return (
-    <section className='flex flex-col-reverse justify-around w-screen px-10 pt-20 space-y-1 md:items-center md:flex-row md:space-y-0 bg-my_bg_image bg-right-top md:h-[100vh] overflow-hidden'>
+    <section className='flex flex-col-reverse justify-around w-screen px-10 pt-20 space-y-1 md:items-center md:flex-row md:space-y-0 bg-my_bg_image bg-contain sm:bg-cover md:h-[100vh] overflow-hidden'>
 
         <div data-aos="fade-right" className='flex flex-col items-center mx-auto space-y-4 md:space-y-6 md:items-start'>
           <Image 
             data-aos="fade-left"
             src={footprint}
-            width={200}
-            height={200}
+            width={250}
+            height={250}
             alt='Hero Image'
-            className='absolute -z-10 -right-10 -top-10'
+            className='absolute -z-10 -right-20 -top-20 md:-top-40'
           />  
           <Image 
             data-aos="fade-left"
@@ -24,7 +24,7 @@ const Hero = () => {
             width={250}
             height={250}
             alt='Hero Image'
-            className='absolute -z-10 -left-10 -bottom-10'
+            className='absolute -z-10 -left-40 -bottom-20 md:-bottom-40'
           />    
           <h1 className=' text-4xl font-extrabold md:text-6xl lg:text-7xl text-[#ffffff] tracking-wide leading-[1.6] text-center md:text-left'>
               Johnson Eziel <br className='hidden lg:block' />Weitzmann

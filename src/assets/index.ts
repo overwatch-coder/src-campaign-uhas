@@ -46,6 +46,7 @@ import uhasLogo from './uhas-logo.jpg'
 import vice from './vice.jpeg'
 import heroImg from './Layer 0.png'
 import background from './Background.png'
+import vetting from './vetting.jpeg'
 
 export {
     vaMidzo,
@@ -95,5 +96,6 @@ export {
     vice,
     uhasLogo,
     heroImg,
-    background
+    background,
+    vetting
 }
