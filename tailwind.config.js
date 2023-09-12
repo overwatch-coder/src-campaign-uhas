@@ -11,7 +11,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'section-background': "url('/src/assets/uhas-logo.jpg')",
+        'my_bg_image': "url('../../public/Background.png')",
       },
       fontFamily: {
         'oswald': ['oswald', 'ui-serif', 'Georgia'],

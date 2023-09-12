@@ -47,14 +47,6 @@ const Header = () => {
                             {link.title}
                         </Link>
                     ))}
-
-                    <Link 
-                        onClick={() => setOpenMenu(false)}
-                        href={'/'} 
-                        className='px-3 py-2 text-center text-white uppercase rounded bg-yellow-600 w-fit hover:bg-yellow'
-                    >
-                        Donate
-                    </Link>
                 </nav>
             </div>
         </div>
@@ -73,14 +65,6 @@ const Header = () => {
                     {link.title}
                 </Link>
             ))}
-
-            <Link 
-                href={'/'} 
-                className='w-full px-3 py-4 text-center text-white uppercase rounded md:py-2 bg-yellow-600 md:w-fit hover:bg-yellow-700'
-                onClick={() => setOpenMenu(false)}
-            >
-                Donate
-            </Link>
         </nav>
     </header>
   )

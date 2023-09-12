@@ -45,6 +45,7 @@ import gallery9 from './gallery9.jpeg'
 import uhasLogo from './uhas-logo.jpg'
 import vice from './vice.jpeg'
 import heroImg from './Layer 0.png'
+import background from './Background.png'
 
 export {
     vaMidzo,
@@ -93,5 +94,6 @@ export {
     gallery9,
     vice,
     uhasLogo,
-    heroImg
+    heroImg,
+    background
 }
